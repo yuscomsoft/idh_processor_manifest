@@ -1,0 +1,257 @@
+farmerRegistration:
+  forms:
+    - farmerRegistration_type1
+  headers:
+    - start
+    - deviceid
+    - SubmissionDate
+    - source
+    - registrationPeriod-year
+    - registrationPeriod-quarter
+    - dateOfRegistration
+    - nameOfFarmer-lastName
+    - nameOfFarmer-firstName
+    - gender
+    - age
+    - youthAdult
+    - phone
+    - farmersTelephone-phone1
+    - farmersTelephone-phone2
+    - programme
+    - produce
+    - country
+    - state
+    - lga
+    - communityName
+    - educationStatus
+    - otherEducation
+    - primaryOccupation
+    - otherPrimaryOccupation
+    - personalCropCultivated
+    - farmSize
+    - farmerExpYear
+    - farmersId
+  baseKpi:
+  kpiOutput:
+    farmerRegistration:
+      - source
+      - SubmissionDate
+      - registrationPeriod-year
+      - registrationPeriod-quarter
+      - dateOfRegistration
+      - nameOfFarmer-lastName
+      - nameOfFarmer-firstName
+      - gender
+      - age
+      - youthAdult
+      - phone
+      - farmersTelephone-phone1
+      - farmersTelephone-phone2
+      - programme
+      - produce
+      - country
+      - state
+      - lga
+      - communityName
+      - educationStatus
+      - otherEducation
+      - primaryOccupation
+      - otherPrimaryOccupation
+      - secondaryOccupation
+      - otherSecondaryOccupation
+      - personalCropCultivated
+      - farmSize
+      - farmerExpYear
+      - farmersId
+fieldLevelAssessment:
+  forms:
+    - fieldLevelAssessment_type1
+  headers:
+    - start
+    - deviceid
+    - SubmissionDate
+    - source
+    - IDH_instanceId
+    - farmersId
+    - assessmentPeriod-year
+    - assessmentPeriod-quarter
+    - farmerType
+    - farmSize
+    - accesstoFinance-accessToFinance
+    - accesstoFinance-amountOfCreditRecived
+    - accesstoFinance-newAccessToFinance
+    - accessToImprovedInputs-inputReceived
+    - accessToImprovedInputs-typeOfInputReceived
+    - accessToImprovedInputs-firstInputReceived
+    - trainingSection-goodAgronomicPractice
+    - trainingSection-goodAgronomicPracticeTrainings
+    - trainingSection-otherTrainings
+    - trainingSection-environmentalSustainablePractice
+    - trainingSection-subjectOnEnvironmentalSustainablePractice
+    - trainingSection-groupDynamicsAndConflictManagement
+    - trainingSection-subjectOnGroupDynamics
+    - trainingSection-marketingAndNegotiation
+    - trainingSection-subjectOnMarketingAndNegotiation
+    - trainingSection-postHarvestHandlingAndQualityRequirements
+    - trainingSection-subjectOnpostHarvestHandling
+    - trainingSection-trainingOfTrainers
+    - contractAndAgreement-contract
+    - contractAndAgreement-farmersOutputProduced
+    - contractAndAgreement-guaranteeMarket
+    - contractAndAgreement-outputProduced
+    - adoptionOfTechnology-gaptraining
+    - adoptionOfTechnology-postHarvestHandlingTraining
+    - adoptionOfTechnology-environmentalSustainablePracticetraining
+    - adoptionOfTechnology-noOfLandUsed
+  baseKpi:
+    - source
+    - youthAdult
+    - assessmentPeriod-year
+    - assessmentPeriod-quarter
+    - programme
+    - country
+    - gender
+    - farmersId
+    - produce
+  kpiOutput:
+    accessToFinanceField:
+      - accesstoFinance-accessToFinance
+      - accesstoFinance-amountOfCreditRecived
+      - accesstoFinance-newAccessToFinance
+      - farmerType
+    accessToImprovedInputsField:
+      - accessToImprovedInputs-inputReceived
+      - accessToImprovedInputs-typeOfInputReceived
+      - accessToImprovedInputs-firstInputReceived
+    trainingField:
+      - trainingSection-goodAgronomicPractice
+      - trainingSection-goodAgronomicPracticeTrainings
+      - trainingSection-otherTrainings
+      - trainingSection-environmentalSustainablePractice
+      - trainingSection-subjectOnEnvironmentalSustainablePractice
+      - trainingSection-groupDynamicsAndConflictManagement
+      - trainingSection-subjectOnGroupDynamics
+      - trainingSection-marketingAndNegotiation
+      - trainingSection-subjectOnMarketingAndNegotiation
+      - trainingSection-postHarvestHandlingAndQualityRequirements
+      - trainingSection-subjectOnpostHarvestHandling
+      - trainingSection-trainingOfTrainers
+    uptakeField:
+      - farmerType
+      - contractAndAgreement-contract
+      - contractAndAgreement-guaranteeMarket
+      - contractAndAgreement-outputProduced
+    adoptionOfTechnologyField:
+      - adoptionOfTechnology-gaptraining
+      - adoptionOfTechnology-postHarvestHandlingTraining
+      - adoptionOfTechnology-environmentalSustainablePracticetraining
+      - adoptionOfTechnology-noOfLandUsed
+    serviceDeliveryField:
+      - farmerType
+companyLevelAssessment:
+  forms:
+    - companyLevelAssessment_type1
+  headers:
+    - start
+    - deviceid
+    - SubmissionDate
+    - source
+    - country
+    - IDH_instanceId
+    - assessmentPeriod-year
+    - assessmentPeriod-quarter
+    - programme
+    - produce
+    - privateInvestments-sectorInvestments
+    - projectSpending-actualSpending
+    - projectSpending-forecastOfSpending
+    - accessToFinance-averageLoanSize
+    - accessToFinance-financeAmount
+    - accessToFinance-interestRate
+    - accessToFinance-recoveryRate
+    - accessToImprovedInputs-volumeOfInputsSold
+    - accessToImprovedInputs-valueOfInputsSold
+    - uptakeOfSustainableProductionAndMarketAccess-outputsContractedToProject
+    - uptakeOfSustainableProductionAndMarketAccess-resultOfPprojectInterventions
+    - uptakeOfSustainableProductionAndMarketAccess-volumeFromOtherSourcesBesidesTheProject
+    - uptakeOfSustainableProductionAndMarketAccess-pricePaidToFarmers
+    - uptakeOfSustainableProductionAndMarketAccess-volumeOfBuyingFromEndBuyers
+    - uptakeOfSustainableProductionAndMarketAccess-valueOfBuyingFromEndBuyers
+    - yield-yieldAchievedBySmallholderFarmers
+    - income-valueChainPurchasedFromSmallholderFarmers
+    - sdmCosts-costIncurredFromServices
+    - sdmRevenues-revenuesGeneratedFromServices
+    - assessmentSourcingCost
+    - sourcingCost-costsOfServiceProvider
+    - assessmentSourcingRevenue
+    - sourcingRevenue-sourcingRevenuesFromFarmers
+    - regionalTrade-volumeOfEndProductTradedInCountry
+    - regionalTrade-volumeOfEndProuctTradedWithinAfrica
+    - regionalTrade-volumeOfEndProdctTradedInternationallyOutsideAfrica
+    - regionalTrade-valueOfEndProductTradedInCountry
+    - regionalTrade-valueOfEndProuctTradedWithinAfrica
+    - regionalTrade-valueOfEndProdctTradedInternationallyOutsideAfrica
+    - jobCreationSection-permanentJobs
+    - jobCreationSection-seasonalJobsCreated
+    - jobCreationSection-fieldPermanentJobs
+  baseKpi:
+    - assessmentPeriod-year
+    - assessmentPeriod-quarter
+    - programme
+    - produce
+    - source
+    - country
+  kpiOutput:
+    privateInvestmentsCompany:
+      - privateInvestments-sectorInvestments
+    projectSpendingCompany:
+      - projectSpending-actualSpending
+      - projectSpending-forecastOfSpending
+    accessToFinanceCompany:
+      - accessToFinance-averageLoanSize
+      - accessToFinance-financeAmount
+      - accessToFinance-interestRate
+      - accessToFinance-recoveryRate
+    accessImprovedInputsCompany:
+      - accessToImprovedInputs-volumeOfInputsSold
+      - accessToImprovedInputs-valueOfInputsSold
+    uptakeCompany:
+      - uptakeOfSustainableProductionAndMarketAccess-outputsContractedToProject
+      - uptakeOfSustainableProductionAndMarketAccess-resultOfProjectInterventions
+      - uptakeOfSustainableProductionAndMarketAccess-volumeFromOtherSourcesBesidesTheProject
+      - uptakeOfSustainableProductionAndMarketAccess-pricePaidToFarmers
+      - uptakeOfSustainableProductionAndMarketAccess-volumeOfBuyingFromEndBuyers
+      - uptakeOfSustainableProductionAndMarketAccess-valueOfBuyingFromEndBuyers
+    yieldCompany:
+      - yield-yieldAchievedBySmallholderFarmers
+    incomeCompany:
+      - income-valueChainPurchasedFromSmallholderFarmers
+    sdmCostsCompany:
+      - sdmCosts-costIncurredFromServices
+    smdRevenuesCompany:
+      - sdmRevenues-revenuesGeneratedFromServices
+    sourcingCostCompany:
+      - assessmentSourcingCost
+      - sourcingCost-costsOfServiceProvider
+    sourcingRevenueCompany:
+      - sourcingRevenue-sourcingRevenuesFromFarmers
+      - assessmentSourcingRevenue
+    regionalTradeCompany:
+      - assessmentRegionalTrade
+      - regionalTrade-volumeOfEndProductTradedInCountry
+      - regionalTrade-volumeOfEndProuctTradedWithinAfrica
+      - regionalTrade-volumeOfEndProdctTradedInternationallyOutsideAfrica
+      - regionalTrade-valueOfEndProductTradedInCountry
+      - regionalTrade-valueOfEndProuctTradedWithinAfrica
+      - regionalTrade-valueOfEndProdctTradedInternationallyOutsideAfrica
+    jobCreationCompany:
+      - jobCreationSection-permanentJobs
+      - jobCreationSection-seasonalJobsCreated
+      - jobCreationSection-fieldPermanentJobs
+
+
+
+
+
+
+
