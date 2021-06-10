@@ -1,6 +1,4 @@
 farmerRegistration:
-  forms:
-    - farmerRegistration_type1
   headers:
     - start
     - deviceid
@@ -64,8 +62,6 @@ farmerRegistration:
       - farmerExpYear
       - farmersId
 fieldLevelAssessment:
-  forms:
-    - fieldLevelAssessment_type1
   headers:
     - start
     - deviceid
@@ -149,8 +145,6 @@ fieldLevelAssessment:
     serviceDeliveryField:
       - farmerType
 companyLevelAssessment:
-  forms:
-    - companyLevelAssessment_type1
   headers:
     - start
     - deviceid
