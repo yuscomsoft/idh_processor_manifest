@@ -188,6 +188,9 @@ companyLevelAssessment:
     - jobCreationSection-permanentJobs
     - jobCreationSection-seasonalJobsCreated
     - jobCreationSection-fieldPermanentJobs
+    - landArea-areaUnderSustainableLandManagement
+    - landArea-areaUnderForestProtection
+    - landArea-areaUnderForestRestoration
   baseKpi:
     - assessmentPeriod-year
     - assessmentPeriod-quarter
@@ -242,6 +245,11 @@ companyLevelAssessment:
       - jobCreationSection-permanentJobs
       - jobCreationSection-seasonalJobsCreated
       - jobCreationSection-fieldPermanentJobs
+    landAreaCompany:
+      - landArea-areaUnderSustainableLandManagement
+      - landArea-areaUnderForestProtection
+      - landArea-areaUnderForestRestoration
+
 
 
 
