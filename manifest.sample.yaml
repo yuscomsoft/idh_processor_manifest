@@ -73,31 +73,90 @@ fieldLevelAssessment:
     - assessmentPeriod-quarter
     - farmerType
     - farmSize
+    - aggregation-farmSize
+    - aggregation-valueChainFarmSize
+    - aggregation-productionOutput
     - accesstoFinance-accessToFinance
-    - accesstoFinance-amountOfCreditRecived
+    - accesstoFinance-amountOfCreditReceived
+    - accesstoFinance-recoveryRate
+    - accesstoFinance-totalRecoveryRate
     - accesstoFinance-newAccessToFinance
     - accessToImprovedInputs-inputReceived
     - accessToImprovedInputs-typeOfInputReceived
     - accessToImprovedInputs-firstInputReceived
+    - accessToImprovedInputs-valueOfInputSold
+    - outputOrYieldOfFarmer-outputOfFarmer
+    - outputOrYieldOfFarmer-yieldAchievedByFarmer
     - trainingSection-goodAgronomicPractice
-    - trainingSection-goodAgronomicPracticeTrainings
-    - trainingSection-otherTrainings
+    - trainingSection-goodAgronomicPracticeTopics-siteSelection
+    - trainingSection-goodAgronomicPracticeTopics-plantingPractices
+    - trainingSection-goodAgronomicPracticeTopics-weedManagement
+    - trainingSection-goodAgronomicPracticeTopics-soilFertilityManagement
+    - trainingSection-goodAgronomicPracticeTopics-diseaseAndPestManagement
+    - trainingSection-goodAgronomicPracticeTopics-goodHarvestingTechniques
+    - trainingSection-goodAgronomicPracticeTopics-harvestingPostHarvestHandling
+    - trainingSection-goodAgronomicPracticeTopics-recordKeepings
+    - trainingSection-goodAgronomicPracticeTopics-healthAndSafety
+    - trainingSection-goodAgronomicPracticeTopics-labourRelations
+    - trainingSection-goodAgronomicPracticeTopics-facilitationSkills
+    - trainingSection-goodAgronomicPracticeTopics-groupFormation
+    - trainingSection-goodAgronomicPracticeTopics-otherTrainings
     - trainingSection-environmentalSustainablePractice
-    - trainingSection-subjectOnEnvironmentalSustainablePractice
+    - trainingSection-environmentalSustainablePracticeTopics-intercropping
+    - trainingSection-environmentalSustainablePracticeTopics-livestockAndAquacultureIntegration
+    - trainingSection-environmentalSustainablePracticeTopics-useofAlternativeAndRenewableEnergySources
+    - trainingSection-environmentalSustainablePracticeTopics-sustainableLandManagementPractices
+    - trainingSection-environmentalSustainablePracticeTopics-communityParticipationinNaturalResouresManagement
+    - trainingSection-environmentalSustainablePracticeTopics-otherTrainings
     - trainingSection-groupDynamicsAndConflictManagement
-    - trainingSection-subjectOnGroupDynamics
-    - trainingSection-marketingAndNegotiation
-    - trainingSection-subjectOnMarketingAndNegotiation
+    - trainingSection-groupDynamicsAndConflictManagementTopics-groupDynamics
+    - trainingSection-groupDynamicsAndConflictManagementTopics-labourRelation
+    - trainingSection-groupDynamicsAndConflictManagementTopics-childLabour
+    - trainingSection-groupDynamicsAndConflictManagementTopics-otherTrainings
+    - trainingSection-goodBusinessAndMarketingPractices
+    - trainingSection-goodBusinessAndMarketingPracticesTopics-recordKeeping
+    - trainingSection-goodBusinessAndMarketingPracticesTopics-marketing
+    - trainingSection-goodBusinessAndMarketingPracticesTopics-enterpriseDiversification
+    - trainingSection-goodBusinessAndMarketingPracticesTopics-innovativeSmallScaleProcessing
+    - trainingSection-goodBusinessAndMarketingPracticesTopics-otherTrainings
     - trainingSection-postHarvestHandlingAndQualityRequirements
-    - trainingSection-subjectOnpostHarvestHandling
-    - trainingSection-trainingOfTrainers
+    - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-loadingAndTransportation
+    - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-properCleaning
+    - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-dryingTechniques
+    - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-modernThreshingMethods
+    - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-grading
+    - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-storage
+    - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-otherTrainings
+    - trainingsExtension
     - contractAndAgreement-contract
     - contractAndAgreement-farmersOutputProduced
     - contractAndAgreement-guaranteeMarket
     - contractAndAgreement-outputProduced
     - adoptionOfTechnology-gaptraining
+    - adoptionOfTechnology-gaptrainingTopics-siteSelection
+    - adoptionOfTechnology-gaptrainingTopics-weedManagement
+    - adoptionOfTechnology-gaptrainingTopics-soilFertilityManagement
+    - adoptionOfTechnology-gaptrainingTopics-diseaseAndPestManagement
+    - adoptionOfTechnology-gaptrainingTopics-goodHarvestingTechniques
+    - adoptionOfTechnology-gaptrainingTopics-harvestingPostHarvestHandling
+    - adoptionOfTechnology-gaptrainingTopics-recordKeepings
+    - adoptionOfTechnology-gaptrainingTopics-healthAndSafety
+    - adoptionOfTechnology-gaptrainingTopics-labourRelations
+    - adoptionOfTechnology-gaptrainingTopics-facilitationSkills
+    - adoptionOfTechnology-gaptrainingTopics-groupFormation
     - adoptionOfTechnology-postHarvestHandlingTraining
+    - adoptionOfTechnology-postHarvestHandlingTrainingTopics-loadingAndTransportation
+    - adoptionOfTechnology-postHarvestHandlingTrainingTopics-properCleaning
+    - adoptionOfTechnology-postHarvestHandlingTrainingTopics-dryingTechniques
+    - adoptionOfTechnology-postHarvestHandlingTrainingTopics-modernThreshingMethods
+    - adoptionOfTechnology-postHarvestHandlingTrainingTopics-grading
+    - adoptionOfTechnology-postHarvestHandlingTrainingTopics-storage
     - adoptionOfTechnology-environmentalSustainablePracticetraining
+    - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-intercropping
+    - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-livestockAndAquacultureIntegration
+    - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-useofAlternativeAndRenewableEnergySources
+    - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-sustainableLandManagementPractices
+    - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-communityParticipationinNaturalResouresManagement
     - adoptionOfTechnology-noOfLandUsed
   baseKpi:
     - source
@@ -112,38 +171,102 @@ fieldLevelAssessment:
   kpiOutput:
     accessToFinanceField:
       - accesstoFinance-accessToFinance
-      - accesstoFinance-amountOfCreditRecived
+      - accesstoFinance-amountOfCreditReceived
+      - accesstoFinance-recoveryRate
+      - accesstoFinance-totalRecoveryRate
       - accesstoFinance-newAccessToFinance
       - farmerType
     accessToImprovedInputsField:
       - accessToImprovedInputs-inputReceived
       - accessToImprovedInputs-typeOfInputReceived
       - accessToImprovedInputs-firstInputReceived
+      - accessToImprovedInputs-valueOfInputSold
     trainingField:
       - trainingSection-goodAgronomicPractice
-      - trainingSection-goodAgronomicPracticeTrainings
-      - trainingSection-otherTrainings
+      - trainingSection-goodAgronomicPracticeTopics-siteSelection
+      - trainingSection-goodAgronomicPracticeTopics-plantingPractices
+      - trainingSection-goodAgronomicPracticeTopics-weedManagement
+      - trainingSection-goodAgronomicPracticeTopics-soilFertilityManagement
+      - trainingSection-goodAgronomicPracticeTopics-diseaseAndPestManagement
+      - trainingSection-goodAgronomicPracticeTopics-goodHarvestingTechniques
+      - trainingSection-goodAgronomicPracticeTopics-harvestingPostHarvestHandling
+      - trainingSection-goodAgronomicPracticeTopics-recordKeepings
+      - trainingSection-goodAgronomicPracticeTopics-healthAndSafety
+      - trainingSection-goodAgronomicPracticeTopics-labourRelations
+      - trainingSection-goodAgronomicPracticeTopics-facilitationSkills
+      - trainingSection-goodAgronomicPracticeTopics-groupFormation
+      - trainingSection-goodAgronomicPracticeTopics-otherTrainings
       - trainingSection-environmentalSustainablePractice
-      - trainingSection-subjectOnEnvironmentalSustainablePractice
+      - trainingSection-environmentalSustainablePracticeTopics-intercropping
+      - trainingSection-environmentalSustainablePracticeTopics-livestockAndAquacultureIntegration
+      - trainingSection-environmentalSustainablePracticeTopics-useofAlternativeAndRenewableEnergySources
+      - trainingSection-environmentalSustainablePracticeTopics-sustainableLandManagementPractices
+      - trainingSection-environmentalSustainablePracticeTopics-communityParticipationinNaturalResouresManagement
+      - trainingSection-environmentalSustainablePracticeTopics-otherTrainings
       - trainingSection-groupDynamicsAndConflictManagement
-      - trainingSection-subjectOnGroupDynamics
-      - trainingSection-marketingAndNegotiation
-      - trainingSection-subjectOnMarketingAndNegotiation
+      - trainingSection-groupDynamicsAndConflictManagementTopics-groupDynamics
+      - trainingSection-groupDynamicsAndConflictManagementTopics-labourRelation
+      - trainingSection-groupDynamicsAndConflictManagementTopics-childLabour
+      - trainingSection-groupDynamicsAndConflictManagementTopics-otherTrainings
+      - trainingSection-goodBusinessAndMarketingPractices
+      - trainingSection-goodBusinessAndMarketingPracticesTopics-recordKeeping
+      - trainingSection-goodBusinessAndMarketingPracticesTopics-marketing
+      - trainingSection-goodBusinessAndMarketingPracticesTopics-enterpriseDiversification
+      - trainingSection-goodBusinessAndMarketingPracticesTopics-innovativeSmallScaleProcessing
+      - trainingSection-goodBusinessAndMarketingPracticesTopics-otherTrainings
       - trainingSection-postHarvestHandlingAndQualityRequirements
-      - trainingSection-subjectOnpostHarvestHandling
-      - trainingSection-trainingOfTrainers
+      - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-loadingAndTransportation
+      - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-properCleaning
+      - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-dryingTechniques
+      - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-modernThreshingMethods
+      - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-grading
+      - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-storage
+      - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-otherTrainings
+    trainingExtensionField:
+      - trainingsExtension
     uptakeField:
       - farmerType
       - contractAndAgreement-contract
+      - contractAndAgreement-farmersOutputProduced
       - contractAndAgreement-guaranteeMarket
       - contractAndAgreement-outputProduced
     adoptionOfTechnologyField:
       - adoptionOfTechnology-gaptraining
+      - adoptionOfTechnology-gaptrainingTopics-siteSelection
+      - adoptionOfTechnology-gaptrainingTopics-weedManagement
+      - adoptionOfTechnology-gaptrainingTopics-soilFertilityManagement
+      - adoptionOfTechnology-gaptrainingTopics-diseaseAndPestManagement
+      - adoptionOfTechnology-gaptrainingTopics-goodHarvestingTechniques
+      - adoptionOfTechnology-gaptrainingTopics-harvestingPostHarvestHandling
+      - adoptionOfTechnology-gaptrainingTopics-recordKeepings
+      - adoptionOfTechnology-gaptrainingTopics-healthAndSafety
+      - adoptionOfTechnology-gaptrainingTopics-labourRelations
+      - adoptionOfTechnology-gaptrainingTopics-facilitationSkills
+      - adoptionOfTechnology-gaptrainingTopics-groupFormation
       - adoptionOfTechnology-postHarvestHandlingTraining
+      - adoptionOfTechnology-postHarvestHandlingTrainingTopics-loadingAndTransportation
+      - adoptionOfTechnology-postHarvestHandlingTrainingTopics-properCleaning
+      - adoptionOfTechnology-postHarvestHandlingTrainingTopics-dryingTechniques
+      - adoptionOfTechnology-postHarvestHandlingTrainingTopics-modernThreshingMethods
+      - adoptionOfTechnology-postHarvestHandlingTrainingTopics-grading
+      - adoptionOfTechnology-postHarvestHandlingTrainingTopics-storage
       - adoptionOfTechnology-environmentalSustainablePracticetraining
+      - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-intercropping
+      - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-livestockAndAquacultureIntegration
+      - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-useofAlternativeAndRenewableEnergySources
+      - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-sustainableLandManagementPractices
+      - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-communityParticipationinNaturalResouresManagement
       - adoptionOfTechnology-noOfLandUsed
     serviceDeliveryField:
       - farmerType
+    yieldField:
+      - outputOrYieldOfFarmer-outputOfFarmer
+      - outputOrYieldOfFarmer-yieldAchievedByFarmer
+    aggregationField:
+      - aggregation-farmSize
+      - aggregation-valueChainFarmSize
+      - aggregation-productionOutput
+      - farmersId
 companyLevelAssessment:
   headers:
     - start
@@ -157,37 +280,40 @@ companyLevelAssessment:
     - programme
     - produce
     - privateInvestments-sectorInvestments
-    - projectSpending-actualSpending
-    - projectSpending-forecastOfSpending
-    - accessToFinance-averageLoanSize
-    - accessToFinance-financeAmount
-    - accessToFinance-interestRate
-    - accessToFinance-recoveryRate
-    - accessToImprovedInputs-volumeOfInputsSold
-    - accessToImprovedInputs-valueOfInputsSold
+    - projectSpending-projectSpendingIdh
+    - projectSpending-projectSpendingPrivate
+    - spendingForecast-spendingForecastIdh
+    - spendingForecast-spendingForecastPrivate
+    - jobCreation-permanentJobs-permanentJobsMale
+    - jobCreation-permanentJobs-permanentJobsFemale
+    - jobCreation-permanentJobs-Total
+    - jobCreation-fieldPermanentJobs-fieldPermanentJobsMale
+    - jobCreation-fieldPermanentJobs-fieldPermanentJobsFemale
+    - jobCreation-fieldPermanentJobs-Total
+    - jobCreation-seasonalJobsCreated-seasonalJobsCreatedMale
+    - jobCreation-seasonalJobsCreated-seasonalJobsCreatedFemale
+    - jobCreation-seasonalJobsCreated-Total
     - uptakeOfSustainableProductionAndMarketAccess-outputsContractedToProject
-    - uptakeOfSustainableProductionAndMarketAccess-resultOfPprojectInterventions
+    - uptakeOfSustainableProductionAndMarketAccess-resultOfProjectInterventions
     - uptakeOfSustainableProductionAndMarketAccess-volumeFromOtherSourcesBesidesTheProject
     - uptakeOfSustainableProductionAndMarketAccess-pricePaidToFarmers
-    - uptakeOfSustainableProductionAndMarketAccess-volumeOfBuyingFromEndBuyers
-    - uptakeOfSustainableProductionAndMarketAccess-valueOfBuyingFromEndBuyers
-    - yield-yieldAchievedBySmallholderFarmers
-    - income-valueChainPurchasedFromSmallholderFarmers
+    - uptakeOfSustainableProductionAndMarketAccess-offtakePaidToFarmersByTheCompany
+    - uptakeOfSustainableProductionAndMarketAccess-volumeOfBuyingCommitmentObtainedFromBuyersEnd
+    - uptakeOfSustainableProductionAndMarketAccess-valueOfBuyingCommitmentObtainedFromBuyersEnd
+    - uptakeOfSustainableProductionAndMarketAccess-volumeOfEndProductSuppliedToEndBuyers
+    - uptakeOfSustainableProductionAndMarketAccess-valueOfEndProductSuppliedToEndBuyers
+    - income-averageIncomeReceivedBySmallholderFarmers
     - sdmCosts-costIncurredFromServices
     - sdmRevenues-revenuesGeneratedFromServices
-    - assessmentSourcingCost
     - sourcingCost-costsOfServiceProvider
-    - assessmentSourcingRevenue
     - sourcingRevenue-sourcingRevenuesFromFarmers
+    - accessToFinance-interestRate
     - regionalTrade-volumeOfEndProductTradedInCountry
     - regionalTrade-volumeOfEndProuctTradedWithinAfrica
     - regionalTrade-volumeOfEndProdctTradedInternationallyOutsideAfrica
     - regionalTrade-valueOfEndProductTradedInCountry
     - regionalTrade-valueOfEndProuctTradedWithinAfrica
     - regionalTrade-valueOfEndProdctTradedInternationallyOutsideAfrica
-    - jobCreationSection-permanentJobs
-    - jobCreationSection-seasonalJobsCreated
-    - jobCreationSection-fieldPermanentJobs
     - landArea-areaUnderSustainableLandManagement
     - landArea-areaUnderForestProtection
     - landArea-areaUnderForestRestoration
@@ -202,39 +328,34 @@ companyLevelAssessment:
     privateInvestmentsCompany:
       - privateInvestments-sectorInvestments
     projectSpendingCompany:
-      - projectSpending-actualSpending
-      - projectSpending-forecastOfSpending
+      - projectSpending-projectSpendingIdh
+      - projectSpending-projectSpendingPrivate
+    spendingForecastCompany:
+      - spendingForecast-spendingForecastIdh
+      - spendingForecast-spendingForecastPrivate
     accessToFinanceCompany:
-      - accessToFinance-averageLoanSize
-      - accessToFinance-financeAmount
       - accessToFinance-interestRate
-      - accessToFinance-recoveryRate
-    accessImprovedInputsCompany:
-      - accessToImprovedInputs-volumeOfInputsSold
-      - accessToImprovedInputs-valueOfInputsSold
     uptakeCompany:
       - uptakeOfSustainableProductionAndMarketAccess-outputsContractedToProject
       - uptakeOfSustainableProductionAndMarketAccess-resultOfProjectInterventions
       - uptakeOfSustainableProductionAndMarketAccess-volumeFromOtherSourcesBesidesTheProject
       - uptakeOfSustainableProductionAndMarketAccess-pricePaidToFarmers
-      - uptakeOfSustainableProductionAndMarketAccess-volumeOfBuyingFromEndBuyers
-      - uptakeOfSustainableProductionAndMarketAccess-valueOfBuyingFromEndBuyers
-    yieldCompany:
-      - yield-yieldAchievedBySmallholderFarmers
+      - uptakeOfSustainableProductionAndMarketAccess-offtakePaidToFarmersByTheCompany
+      - uptakeOfSustainableProductionAndMarketAccess-volumeOfBuyingCommitmentObtainedFromBuyersEnd
+      - uptakeOfSustainableProductionAndMarketAccess-valueOfBuyingCommitmentObtainedFromBuyersEnd
+      - uptakeOfSustainableProductionAndMarketAccess-volumeOfEndProductSuppliedToEndBuyers
+      - uptakeOfSustainableProductionAndMarketAccess-valueOfEndProductSuppliedToEndBuyers
     incomeCompany:
-      - income-valueChainPurchasedFromSmallholderFarmers
+      - income-averageIncomeReceivedBySmallholderFarmers
     sdmCostsCompany:
       - sdmCosts-costIncurredFromServices
     smdRevenuesCompany:
       - sdmRevenues-revenuesGeneratedFromServices
     sourcingCostCompany:
-      - assessmentSourcingCost
       - sourcingCost-costsOfServiceProvider
     sourcingRevenueCompany:
       - sourcingRevenue-sourcingRevenuesFromFarmers
-      - assessmentSourcingRevenue
     regionalTradeCompany:
-      - assessmentRegionalTrade
       - regionalTrade-volumeOfEndProductTradedInCountry
       - regionalTrade-volumeOfEndProuctTradedWithinAfrica
       - regionalTrade-volumeOfEndProdctTradedInternationallyOutsideAfrica
@@ -242,9 +363,15 @@ companyLevelAssessment:
       - regionalTrade-valueOfEndProuctTradedWithinAfrica
       - regionalTrade-valueOfEndProdctTradedInternationallyOutsideAfrica
     jobCreationCompany:
-      - jobCreationSection-permanentJobs
-      - jobCreationSection-seasonalJobsCreated
-      - jobCreationSection-fieldPermanentJobs
+      - jobCreation-permanentJobs-permanentJobsMale
+      - jobCreation-permanentJobs-permanentJobsFemale
+      - jobCreation-permanentJobs-Total
+      - jobCreation-fieldPermanentJobs-fieldPermanentJobsMale
+      - jobCreation-fieldPermanentJobs-fieldPermanentJobsFemale
+      - jobCreation-fieldPermanentJobs-Total
+      - jobCreation-seasonalJobsCreated-seasonalJobsCreatedMale
+      - jobCreation-seasonalJobsCreated-seasonalJobsCreatedFemale
+      - jobCreation-seasonalJobsCreated-Total
     landAreaCompany:
       - landArea-areaUnderSustainableLandManagement
       - landArea-areaUnderForestProtection
