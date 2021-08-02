@@ -77,9 +77,6 @@ fieldLevelAssessment:
     - aggregation-valueChainFarmSize
     - aggregation-productionOutput
     - accesstoFinance-accessToFinance
-    - accesstoFinance-amountOfCreditReceived
-    - accesstoFinance-recoveryRate
-    - accesstoFinance-totalRecoveryRate
     - accesstoFinance-newAccessToFinance
     - accessToImprovedInputs-inputReceived
     - accessToImprovedInputs-typeOfInputReceived
@@ -89,6 +86,8 @@ fieldLevelAssessment:
     - outputOrYieldOfFarmer-yieldAchievedByFarmer
     - trainingSection-goodAgronomicPractice
     - trainingSection-goodAgronomicPracticeTopics-siteSelection
+    - trainingSection-goodAgronomicPracticeTopics-landPreparartion
+    - trainingSection-goodAgronomicPracticeTopics-plantingMaterialSelection
     - trainingSection-goodAgronomicPracticeTopics-plantingPractices
     - trainingSection-goodAgronomicPracticeTopics-weedManagement
     - trainingSection-goodAgronomicPracticeTopics-soilFertilityManagement
@@ -131,10 +130,13 @@ fieldLevelAssessment:
     - contractAndAgreement-contract
     - contractAndAgreement-farmersOutputProduced
     - contractAndAgreement-guaranteeMarket
-    - contractAndAgreement-outputProduced
+    - contractAndAgreement-outputsProduced
     - adoptionOfTechnology-gaptraining
     - adoptionOfTechnology-gaptrainingTopics-siteSelection
     - adoptionOfTechnology-gaptrainingTopics-weedManagement
+    - adoptionOfTechnology-gaptrainingTopics-landPreparartion
+    - adoptionOfTechnology-gaptrainingTopics-plantingMaterialSelection
+    - adoptionOfTechnology-gaptrainingTopics-plantingPractices
     - adoptionOfTechnology-gaptrainingTopics-soilFertilityManagement
     - adoptionOfTechnology-gaptrainingTopics-diseaseAndPestManagement
     - adoptionOfTechnology-gaptrainingTopics-goodHarvestingTechniques
@@ -157,7 +159,7 @@ fieldLevelAssessment:
     - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-useofAlternativeAndRenewableEnergySources
     - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-sustainableLandManagementPractices
     - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-communityParticipationinNaturalResouresManagement
-    - adoptionOfTechnology-noOfLandUsed
+    - adoptionOfTechnology-numberOfLandUsed
   baseKpi:
     - source
     - youthAdult
@@ -171,9 +173,6 @@ fieldLevelAssessment:
   kpiOutput:
     accessToFinanceField:
       - accesstoFinance-accessToFinance
-      - accesstoFinance-amountOfCreditReceived
-      - accesstoFinance-recoveryRate
-      - accesstoFinance-totalRecoveryRate
       - accesstoFinance-newAccessToFinance
       - farmerType
     accessToImprovedInputsField:
@@ -181,10 +180,13 @@ fieldLevelAssessment:
       - accessToImprovedInputs-typeOfInputReceived
       - accessToImprovedInputs-firstInputReceived
       - accessToImprovedInputs-valueOfInputSold
+      - farmerType
     trainingField:
       - trainingSection-goodAgronomicPractice
       - trainingSection-goodAgronomicPracticeTopics-siteSelection
       - trainingSection-goodAgronomicPracticeTopics-plantingPractices
+      - trainingSection-goodAgronomicPracticeTopics-landPreparartion
+      - trainingSection-goodAgronomicPracticeTopics-plantingMaterialSelection
       - trainingSection-goodAgronomicPracticeTopics-weedManagement
       - trainingSection-goodAgronomicPracticeTopics-soilFertilityManagement
       - trainingSection-goodAgronomicPracticeTopics-diseaseAndPestManagement
@@ -222,6 +224,7 @@ fieldLevelAssessment:
       - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-grading
       - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-storage
       - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-otherTrainings
+      - farmerType
     trainingExtensionField:
       - trainingsExtension
     uptakeField:
@@ -229,10 +232,13 @@ fieldLevelAssessment:
       - contractAndAgreement-contract
       - contractAndAgreement-farmersOutputProduced
       - contractAndAgreement-guaranteeMarket
-      - contractAndAgreement-outputProduced
+      - contractAndAgreement-outputsProduced
     adoptionOfTechnologyField:
       - adoptionOfTechnology-gaptraining
       - adoptionOfTechnology-gaptrainingTopics-siteSelection
+      - adoptionOfTechnology-gaptrainingTopics-landPreparartion
+      - adoptionOfTechnology-gaptrainingTopics-plantingMaterialSelection
+      - adoptionOfTechnology-gaptrainingTopics-plantingPractices
       - adoptionOfTechnology-gaptrainingTopics-weedManagement
       - adoptionOfTechnology-gaptrainingTopics-soilFertilityManagement
       - adoptionOfTechnology-gaptrainingTopics-diseaseAndPestManagement
@@ -256,17 +262,20 @@ fieldLevelAssessment:
       - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-useofAlternativeAndRenewableEnergySources
       - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-sustainableLandManagementPractices
       - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-communityParticipationinNaturalResouresManagement
-      - adoptionOfTechnology-noOfLandUsed
+      - adoptionOfTechnology-numberOfLandUsed
+      - farmerType
     serviceDeliveryField:
       - farmerType
     yieldField:
       - outputOrYieldOfFarmer-outputOfFarmer
       - outputOrYieldOfFarmer-yieldAchievedByFarmer
+      - farmerType
     aggregationField:
       - aggregation-farmSize
       - aggregation-valueChainFarmSize
       - aggregation-productionOutput
       - farmersId
+      - farmerType
 companyLevelAssessment:
   headers:
     - start
@@ -279,11 +288,11 @@ companyLevelAssessment:
     - assessmentPeriod-quarter
     - programme
     - produce
-    - privateInvestments-sectorInvestments
-    - projectSpending-projectSpendingIdh
-    - projectSpending-projectSpendingPrivate
-    - spendingForecast-spendingForecastIdh
-    - spendingForecast-spendingForecastPrivate
+    - privateInvestments-sectorInvestment
+    - projectSpending-projectSpendingForIdh
+    - projectSpending-projectSpendingForPrivate
+    - spendingForecast-spendingForecastForIdh
+    - spendingForecast-spendingForecastForPrivate
     - jobCreation-permanentJobs-permanentJobsMale
     - jobCreation-permanentJobs-permanentJobsFemale
     - jobCreation-permanentJobs-Total
@@ -293,27 +302,35 @@ companyLevelAssessment:
     - jobCreation-seasonalJobsCreated-seasonalJobsCreatedMale
     - jobCreation-seasonalJobsCreated-seasonalJobsCreatedFemale
     - jobCreation-seasonalJobsCreated-Total
-    - uptakeOfSustainableProductionAndMarketAccess-outputsContractedToProject
-    - uptakeOfSustainableProductionAndMarketAccess-resultOfProjectInterventions
-    - uptakeOfSustainableProductionAndMarketAccess-volumeFromOtherSourcesBesidesTheProject
-    - uptakeOfSustainableProductionAndMarketAccess-pricePaidToFarmers
-    - uptakeOfSustainableProductionAndMarketAccess-offtakePaidToFarmersByTheCompany
-    - uptakeOfSustainableProductionAndMarketAccess-volumeOfBuyingCommitmentObtainedFromBuyersEnd
-    - uptakeOfSustainableProductionAndMarketAccess-valueOfBuyingCommitmentObtainedFromBuyersEnd
-    - uptakeOfSustainableProductionAndMarketAccess-volumeOfEndProductSuppliedToEndBuyers
-    - uptakeOfSustainableProductionAndMarketAccess-valueOfEndProductSuppliedToEndBuyers
+    - uptake-outputsContractedToProject
+    - uptake-resultOfProjectInterventions
+    - uptake-volumeFromOtherSourcesBesidesTheProject
+    - uptake-pricePaidToFarmers
+    - uptake-offtakePaidToFarmersByTheCompany
+    - uptake-volumeOfBuyingCommitmentObtainedFromBuyerEnd
+    - uptake-valueOfBuyingCommitmentObtainedFromBuyerEnd
+    - uptake-volumeOfEndProductSuppliedToEndBuyer
+    - uptake-valueOfEndProductSuppliedToEndBuyer
+    - accessToFinance-averageLoanSize-Male
+    - accessToFinance-averageLoanSize-Female
+    - accessToFinance-totalLoanAmount-Male
+    - accessToFinance-totalLoanAmount-Female
+    - accessToFinance-recoveryRate-Male
+    - accessToFinance-recoveryRate-female
+    - accessToFinance-LoaninterestRate
+    - accessToImprovedInputs-valueOfInputSold-Male
+    - accessToImprovedInputs-valueOfInputSold-Female
     - income-averageIncomeReceivedBySmallholderFarmers
-    - sdmCosts-costIncurredFromServices
-    - sdmRevenues-revenuesGeneratedFromServices
-    - sourcingCost-costsOfServiceProvider
-    - sourcingRevenue-sourcingRevenuesFromFarmers
-    - accessToFinance-interestRate
-    - regionalTrade-volumeOfEndProductTradedInCountry
-    - regionalTrade-volumeOfEndProuctTradedWithinAfrica
-    - regionalTrade-volumeOfEndProdctTradedInternationallyOutsideAfrica
-    - regionalTrade-valueOfEndProductTradedInCountry
-    - regionalTrade-valueOfEndProuctTradedWithinAfrica
-    - regionalTrade-valueOfEndProdctTradedInternationallyOutsideAfrica
+    - sdmCosts-costIncurredFromService
+    - sdmRevenues-revenuesGeneratedFromService
+    - sourcingCost-costsOfServicesProvider
+    - sourcingRevenue-sourcingRevenuesFromFarmer
+    - regionalTrade-volumeOfEndProductsTradedInCountry
+    - regionalTrade-volumeOfEndProuctsTradedWithinAfrica
+    - regionalTrade-volumeOfEndProdctsTradedInternationallyOutsideAfrica
+    - regionalTrade-valueOfEndProductsTradedInCountry
+    - regionalTrade-valueOfEndProductsTradedWithinAfrica
+    - regionalTrade-valueOfEndProductsTradedInternationallyOutsideAfrica
     - landArea-areaUnderSustainableLandManagement
     - landArea-areaUnderForestProtection
     - landArea-areaUnderForestRestoration
@@ -326,42 +343,48 @@ companyLevelAssessment:
     - country
   kpiOutput:
     privateInvestmentsCompany:
-      - privateInvestments-sectorInvestments
+      - privateInvestments-sectorInvestment
     projectSpendingCompany:
-      - projectSpending-projectSpendingIdh
-      - projectSpending-projectSpendingPrivate
+      - projectSpending-projectSpendingForIdh
+      - projectSpending-projectSpendingForPrivate
     spendingForecastCompany:
-      - spendingForecast-spendingForecastIdh
-      - spendingForecast-spendingForecastPrivate
+      - spendingForecast-spendingForecastForIdh
+      - spendingForecast-spendingForecastForPrivate
     accessToFinanceCompany:
-      - accessToFinance-interestRate
+      - accessToFinance-averageLoanSize-Male
+      - accessToFinance-averageLoanSize-Female
+      - accessToFinance-totalLoanAmount-Male
+      - accessToFinance-totalLoanAmount-Female
+      - accessToFinance-recoveryRate-Male
+      - accessToFinance-recoveryRate-female
+      - accessToFinance-LoaninterestRate
     uptakeCompany:
-      - uptakeOfSustainableProductionAndMarketAccess-outputsContractedToProject
-      - uptakeOfSustainableProductionAndMarketAccess-resultOfProjectInterventions
-      - uptakeOfSustainableProductionAndMarketAccess-volumeFromOtherSourcesBesidesTheProject
-      - uptakeOfSustainableProductionAndMarketAccess-pricePaidToFarmers
-      - uptakeOfSustainableProductionAndMarketAccess-offtakePaidToFarmersByTheCompany
-      - uptakeOfSustainableProductionAndMarketAccess-volumeOfBuyingCommitmentObtainedFromBuyersEnd
-      - uptakeOfSustainableProductionAndMarketAccess-valueOfBuyingCommitmentObtainedFromBuyersEnd
-      - uptakeOfSustainableProductionAndMarketAccess-volumeOfEndProductSuppliedToEndBuyers
-      - uptakeOfSustainableProductionAndMarketAccess-valueOfEndProductSuppliedToEndBuyers
+      - uptake-outputsContractedToProject
+      - uptake-resultOfProjectInterventions
+      - uptake-volumeFromOtherSourcesBesidesTheProject
+      - uptake-pricePaidToFarmers
+      - uptake-offtakePaidToFarmersByTheCompany
+      - uptake-volumeOfBuyingCommitmentObtainedFromBuyerEnd
+      - uptake-valueOfBuyingCommitmentObtainedFromBuyerEnd
+      - uptake-volumeOfEndProductSuppliedToEndBuyer
+      - uptake-valueOfEndProductSuppliedToEndBuyer
     incomeCompany:
       - income-averageIncomeReceivedBySmallholderFarmers
     sdmCostsCompany:
-      - sdmCosts-costIncurredFromServices
+      - sdmCosts-costIncurredFromService
     smdRevenuesCompany:
-      - sdmRevenues-revenuesGeneratedFromServices
+      - sdmRevenues-revenuesGeneratedFromService
     sourcingCostCompany:
-      - sourcingCost-costsOfServiceProvider
+      - sourcingCost-costsOfServicesProvider
     sourcingRevenueCompany:
-      - sourcingRevenue-sourcingRevenuesFromFarmers
+      - sourcingRevenue-sourcingRevenuesFromFarmer
     regionalTradeCompany:
-      - regionalTrade-volumeOfEndProductTradedInCountry
-      - regionalTrade-volumeOfEndProuctTradedWithinAfrica
-      - regionalTrade-volumeOfEndProdctTradedInternationallyOutsideAfrica
-      - regionalTrade-valueOfEndProductTradedInCountry
-      - regionalTrade-valueOfEndProuctTradedWithinAfrica
-      - regionalTrade-valueOfEndProdctTradedInternationallyOutsideAfrica
+      - regionalTrade-volumeOfEndProductsTradedInCountry
+      - regionalTrade-volumeOfEndProuctsTradedWithinAfrica
+      - regionalTrade-volumeOfEndProdctsTradedInternationallyOutsideAfrica
+      - regionalTrade-valueOfEndProductsTradedInCountry
+      - regionalTrade-valueOfEndProductsTradedWithinAfrica
+      - regionalTrade-valueOfEndProductsTradedInternationallyOutsideAfrica
     jobCreationCompany:
       - jobCreation-permanentJobs-permanentJobsMale
       - jobCreation-permanentJobs-permanentJobsFemale
@@ -376,6 +399,9 @@ companyLevelAssessment:
       - landArea-areaUnderSustainableLandManagement
       - landArea-areaUnderForestProtection
       - landArea-areaUnderForestRestoration
+    accessToImprovedInputsCompany:
+      - accessToImprovedInputs-valueOfInputSold-Male
+      - accessToImprovedInputs-valueOfInputSold-Female
 
 
 
