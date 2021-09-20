@@ -326,8 +326,8 @@ companyLevelAssessment:
     - sourcingCost-costsOfServicesProvider
     - sourcingRevenue-sourcingRevenuesFromFarmer
     - regionalTrade-volumeOfEndProductsTradedInCountry
-    - regionalTrade-volumeOfEndProuctsTradedWithinAfrica
-    - regionalTrade-volumeOfEndProdctsTradedInternationallyOutsideAfrica
+    - regionalTrade-volumeOfEndProductsTradedWithinAfrica
+    - regionalTrade-volumeOfEndProductsTradedInternationallyOutsideAfrica
     - regionalTrade-valueOfEndProductsTradedInCountry
     - regionalTrade-valueOfEndProductsTradedWithinAfrica
     - regionalTrade-valueOfEndProductsTradedInternationallyOutsideAfrica
@@ -392,8 +392,8 @@ companyLevelAssessment:
       - sourcingRevenue-sourcingRevenuesFromFarmer
     regionalTradeCompany:
       - regionalTrade-volumeOfEndProductsTradedInCountry
-      - regionalTrade-volumeOfEndProuctsTradedWithinAfrica
-      - regionalTrade-volumeOfEndProdctsTradedInternationallyOutsideAfrica
+      - regionalTrade-volumeOfEndProductsTradedWithinAfrica
+      - regionalTrade-volumeOfEndProductsTradedInternationallyOutsideAfrica
       - regionalTrade-valueOfEndProductsTradedInCountry
       - regionalTrade-valueOfEndProductsTradedWithinAfrica
       - regionalTrade-valueOfEndProductsTradedInternationallyOutsideAfrica
