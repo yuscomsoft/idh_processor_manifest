@@ -334,6 +334,18 @@ companyLevelAssessment:
     - landArea-areaUnderSustainableLandManagement
     - landArea-areaUnderForestProtection
     - landArea-areaUnderForestRestoration
+    - reducedRejectionRate-preshipmentRejectionRate-strictNorm
+    - reducedRejectionRate-consignmentRejectionRate-StrictNorm
+    - reducedRejectionRate-complianceToStrictNormsPreshipmentStrictNorm
+    - reducedRejectionRate-complianceToStrictNormsConsignmentStrictNorm
+    - aggregatorsUsingtheTraceabilityTool-numberOfAggregatorsUsingtheTraceabilityTool-aggregatorsNumberOfMale
+    - aggregatorsUsingtheTraceabilityTool-numberOfAggregatorsUsingtheTraceabilityTool-aggregatorsNumberOfFemale
+    - aggregatorsUsingtheTraceabilityTool-numberOfAggregatorsUsingtheTraceabilityTool-numberOfYouth
+    - aggregatorsUsingtheTraceabilityTool-numberOfAggregatorsUsingtheTraceabilityTool-total
+    - sub-aggregatorsUsingtheTraceabilityToolDeveloped-sub-aggregatorsNumberOfMale
+    - sub-aggregatorsUsingtheTraceabilityToolDeveloped-sub-aggregatorsNumberOfFemale
+    - sub-aggregatorsUsingtheTraceabilityToolDeveloped-numberOfYouth
+    - sub-aggregatorsUsingtheTraceabilityToolDeveloped-total
   baseKpi:
     - assessmentPeriod-year
     - assessmentPeriod-quarter
@@ -402,6 +414,21 @@ companyLevelAssessment:
     accessToImprovedInputsCompany:
       - accessToImprovedInputs-valueOfInputSold-Male
       - accessToImprovedInputs-valueOfInputSold-Female
+    reducedRejectionRateCompany:
+      - reducedRejectionRate-preshipmentRejectionRate-strictNorm
+      - reducedRejectionRate-consignmentRejectionRate-StrictNorm
+      - reducedRejectionRate-complianceToStrictNormsPreshipmentStrictNorm
+      - reducedRejectionRate-complianceToStrictNormsConsignmentStrictNorm
+    grainTraceabilityCompany:
+      - aggregatorsUsingtheTraceabilityTool-numberOfAggregatorsUsingtheTraceabilityTool-aggregatorsNumberOfMale
+      - aggregatorsUsingtheTraceabilityTool-numberOfAggregatorsUsingtheTraceabilityTool-aggregatorsNumberOfFemale
+      - aggregatorsUsingtheTraceabilityTool-numberOfAggregatorsUsingtheTraceabilityTool-numberOfYouth
+      - aggregatorsUsingtheTraceabilityTool-numberOfAggregatorsUsingtheTraceabilityTool-total
+      - sub-aggregatorsUsingtheTraceabilityToolDeveloped-sub-aggregatorsNumberOfMale
+      - sub-aggregatorsUsingtheTraceabilityToolDeveloped-sub-aggregatorsNumberOfFemale
+      - sub-aggregatorsUsingtheTraceabilityToolDeveloped-numberOfYouth
+      - sub-aggregatorsUsingtheTraceabilityToolDeveloped-total
+
 
 
 
