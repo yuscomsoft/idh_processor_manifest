@@ -344,7 +344,7 @@ companyLevelAssessment:
     - aggregatorsUsingtheTraceabilityTool-numberOfAggregatorsUsingtheTraceabilityTool-total
     - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-sub_aggregatorsNumberOfMale
     - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-sub_aggregatorsNumberOfFemale
-    - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped_numberOfYouth
+    - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-numberOfYouth
     - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-total
   baseKpi:
     - assessmentPeriod-year
