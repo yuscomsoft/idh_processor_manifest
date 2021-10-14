@@ -334,18 +334,18 @@ companyLevelAssessment:
     - landArea-areaUnderSustainableLandManagement
     - landArea-areaUnderForestProtection
     - landArea-areaUnderForestRestoration
-    - reducedRejectionRate-preshipmentRejectionRate-strictNorm
-    - reducedRejectionRate-consignmentRejectionRate-StrictNorm
+    - reducedRejectionRate-preshipmentRejectionRate_strictNorm
+    - reducedRejectionRate-consignmentRejectionRate_StrictNorm
     - reducedRejectionRate-complianceToStrictNormsPreshipmentStrictNorm
     - reducedRejectionRate-complianceToStrictNormsConsignmentStrictNorm
     - aggregatorsUsingtheTraceabilityTool-numberOfAggregatorsUsingtheTraceabilityTool-aggregatorsNumberOfMale
     - aggregatorsUsingtheTraceabilityTool-numberOfAggregatorsUsingtheTraceabilityTool-aggregatorsNumberOfFemale
     - aggregatorsUsingtheTraceabilityTool-numberOfAggregatorsUsingtheTraceabilityTool-numberOfYouth
     - aggregatorsUsingtheTraceabilityTool-numberOfAggregatorsUsingtheTraceabilityTool-total
-    - sub-aggregatorsUsingtheTraceabilityToolDeveloped-sub-aggregatorsNumberOfMale
-    - sub-aggregatorsUsingtheTraceabilityToolDeveloped-sub-aggregatorsNumberOfFemale
-    - sub-aggregatorsUsingtheTraceabilityToolDeveloped-numberOfYouth
-    - sub-aggregatorsUsingtheTraceabilityToolDeveloped-total
+    - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-sub_aggregatorsNumberOfMale
+    - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-sub_aggregatorsNumberOfFemale
+    - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped_numberOfYouth
+    - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-total
   baseKpi:
     - assessmentPeriod-year
     - assessmentPeriod-quarter
@@ -415,8 +415,8 @@ companyLevelAssessment:
       - accessToImprovedInputs-valueOfInputSold-Male
       - accessToImprovedInputs-valueOfInputSold-Female
     reducedRejectionRateCompany:
-      - reducedRejectionRate-preshipmentRejectionRate-strictNorm
-      - reducedRejectionRate-consignmentRejectionRate-StrictNorm
+      - reducedRejectionRate-preshipmentRejectionRate_strictNorm
+      - reducedRejectionRate-consignmentRejectionRate_StrictNorm
       - reducedRejectionRate-complianceToStrictNormsPreshipmentStrictNorm
       - reducedRejectionRate-complianceToStrictNormsConsignmentStrictNorm
     grainTraceabilityCompany:
@@ -424,10 +424,10 @@ companyLevelAssessment:
       - aggregatorsUsingtheTraceabilityTool-numberOfAggregatorsUsingtheTraceabilityTool-aggregatorsNumberOfFemale
       - aggregatorsUsingtheTraceabilityTool-numberOfAggregatorsUsingtheTraceabilityTool-numberOfYouth
       - aggregatorsUsingtheTraceabilityTool-numberOfAggregatorsUsingtheTraceabilityTool-total
-      - sub-aggregatorsUsingtheTraceabilityToolDeveloped-sub-aggregatorsNumberOfMale
-      - sub-aggregatorsUsingtheTraceabilityToolDeveloped-sub-aggregatorsNumberOfFemale
-      - sub-aggregatorsUsingtheTraceabilityToolDeveloped-numberOfYouth
-      - sub-aggregatorsUsingtheTraceabilityToolDeveloped-total
+      - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-sub_aggregatorsNumberOfMale
+      - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-sub_aggregatorsNumberOfFemale
+      - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-numberOfYouth
+      - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-total
 
 
 
