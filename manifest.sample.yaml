@@ -1,5 +1,6 @@
 farmerRegistration:
   headers:
+    - KEY
     - start
     - deviceid
     - SubmissionDate
@@ -32,6 +33,7 @@ farmerRegistration:
   baseKpi:
   kpiOutput:
     farmerRegistration:
+      - KEY
       - source
       - SubmissionDate
       - registrationPeriod-year
@@ -63,6 +65,7 @@ farmerRegistration:
       - farmersId
 fieldLevelAssessment:
   headers:
+    - KEY
     - start
     - deviceid
     - SubmissionDate
@@ -161,6 +164,7 @@ fieldLevelAssessment:
     - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-communityParticipationinNaturalResouresManagement
     - adoptionOfTechnology-numberOfLandUsed
   baseKpi:
+    - KEY
     - source
     - youthAdult
     - assessmentPeriod-year
