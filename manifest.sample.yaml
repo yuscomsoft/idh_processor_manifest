@@ -375,6 +375,10 @@ fieldLevelAssessment:
       - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-numberOfMaleCOOP
       - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-numberOfFemaleCOOP
       - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-numberOfYouthCOOP
+    numberOfFarmersTrainedCOOPCompany:
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-numberOfMaleCOOP
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-numberOfFemaleCOOP
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-numberOfYouthCOOP
 companyLevelAssessment:
   headers:
     - start
@@ -465,7 +469,7 @@ companyLevelAssessment:
     - AccessToFinancialServices-financeLentToFarmers-male
     - AccessToFinancialServices-financeLentToFarmers-female
     - AccessToFinancialServices-financeLentToFarmers-total
-    - AccessToFinancialServices-TotalPre-financingFacility
+    - AccessToFinancialServices-TotalPre_financingFacility
     - AccessToFinancialServices-averageInterestRate
     - ImprovedSourcing-sourcingContractAgreement
     - ImprovedSourcing-volumeOfGradeOneMaizeContractedInSeason-A
@@ -491,6 +495,7 @@ companyLevelAssessment:
     - IncreasedLong-termBuyingCommitments-numberOfEndBuyersShort-term
     - IncreaseInSalesRevenue
     - reductionInPost-harvestLoss
+    - volumeOfHorticulturalProduceExportedToPremiumMarkets
   baseKpi:
     - assessmentPeriod-year
     - assessmentPeriod-quarter
@@ -499,6 +504,8 @@ companyLevelAssessment:
     - source
     - country
   kpiOutput:
+    volumeOfHorticulturalProduceExportedToPremiumMarketsSMECompany:
+      - volumeOfHorticulturalProduceExportedToPremiumMarkets
     employmentOpportunitiesSMECompany:
       - employmentOpportunities-permanentEmployment-numberOfMaleSME
       - employmentOpportunities-permanentEmployment-numberOfFemaleSME
@@ -603,7 +610,7 @@ companyLevelAssessment:
       - AccessToFinancialServices-financeLentToFarmers-male
       - AccessToFinancialServices-financeLentToFarmers-female
       - AccessToFinancialServices-financeLentToFarmers-total
-      - AccessToFinancialServices-TotalPre-financingFacility
+      - AccessToFinancialServices-TotalPre_financingFacility
       - AccessToFinancialServices-averageInterestRate
     improvedSourcingaAIFCompany:
       - ImprovedSourcing-sourcingContractAgreement
@@ -628,5 +635,3 @@ companyLevelAssessment:
       - IncreaseInSalesRevenue
     reductionInPost-harvestLossSMECompany:
       - reductionInPost-harvestLoss
-    volumeOfHorticulturalProduceExportedToPremiumMarketsSMECompany:
-      - volumeOfHorticulturalProduceExportedToPremiumMarkets
