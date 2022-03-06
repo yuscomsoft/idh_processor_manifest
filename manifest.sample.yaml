@@ -178,8 +178,8 @@ fieldLevelAssessment:
     - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-NumberOfMaleOnGAP
     - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-NumberOfFemaleOnGAP
     - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-total
-    - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-percentageOfMale
-    - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-percentageOfFemale
+    - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-adoptionOfMale
+    - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-adoptionOfFemale
     - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-total
     - AccesstoInputsandImprovedYields-averageSeason-AYields
     - AccessToFinancialServices-NumberOfFarmersAccessingFinancialServices-numberOfMale
@@ -375,6 +375,8 @@ fieldLevelAssessment:
       - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-numberOfMaleCOOP
       - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-numberOfFemaleCOOP
       - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-numberOfYouthCOOP
+      - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-adoptionOfMale
+      - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-adoptionOfFemale
     numberOfFarmersTrainedCOOPCompany:
       - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-numberOfMaleCOOP
       - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-numberOfFemaleCOOP
