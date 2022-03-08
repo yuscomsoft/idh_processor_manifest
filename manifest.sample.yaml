@@ -486,10 +486,10 @@ companyLevelAssessment:
     - employmentOpportunities-casualEmployment-numberOfMaleSME
     - employmentOpportunities-casualEmployment-numberOfFemaleSME
     - employmentOpportunities-casualEmployment-numberOfYouthSME
-    - IncreasedLong-termBuyingCommitments-SMEAdoptingRequiredInternationalFoodSafetyStandards
-    - IncreasedLong-termBuyingCommitments-rejectionRateOfProduce
-    - IncreasedLong-termBuyingCommitments-numberOfEndBuyersLong_term
-    - IncreasedLong-termBuyingCommitments-numberOfEndBuyersShort_term
+    - IncreasedLong_termBuyingCommitments-SMEAdoptingRequiredInternationalFoodSafetyStandards
+    - IncreasedLong_termBuyingCommitments-rejectionRateOfProduce
+    - IncreasedLong_termBuyingCommitments-numberOfEndBuyersLong_term
+    - IncreasedLong_termBuyingCommitments-numberOfEndBuyersShort_term
     - IncreaseInSalesRevenue
     - reductionInPost-harvestLoss
     - volumeOfHorticulturalProduceExportedToPremiumMarkets
@@ -626,9 +626,9 @@ companyLevelAssessment:
       - FoodAndAgricommodityTrade-volumeTradedAcrossBordersWithinAfrica
       - FoodAndAgricommodityTrade-volumeTradedInternationallyOutsideAfrica
     buyingCommitmentsSMECompany:
-      - IncreasedLong-termBuyingCommitments-SMEAdoptingRequiredInternationalFoodSafetyStandards
-      - IncreasedLong-termBuyingCommitments-rejectionRateOfProduce
-      - IncreasedLong-termBuyingCommitments-numberOfEndBuyersLong_term
-      - IncreasedLong-termBuyingCommitments-numberOfEndBuyersShort_term
+      - IncreasedLong_termBuyingCommitments-SMEAdoptingRequiredInternationalFoodSafetyStandards
+      - IncreasedLong_termBuyingCommitments-rejectionRateOfProduce
+      - IncreasedLong_termBuyingCommitments-numberOfEndBuyersLong_term
+      - IncreasedLong_termBuyingCommitments-numberOfEndBuyersShort_term
     IncreaseInSalesRevenueSMECompany:
       - IncreaseInSalesRevenue
