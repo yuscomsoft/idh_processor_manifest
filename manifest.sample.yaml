@@ -208,6 +208,20 @@ fieldLevelAssessment:
     - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-numberOfMaleCOOP
     - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-numberOfFemaleCOOP
     - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-numberOfYouthCOOP
+    - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-GoodAgronomicpractices
+    - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-MyCoop
+    - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-RecordKeeping
+    - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-FemaleLeadership
+    - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-YouthkickOffParticipation
+    - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-BasicFinancialManagement
+    - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-Marketing
+    - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-GlobalGAP
+    - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-PostHarvestHandling
+    - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-InternationalMarketrequirement
+    - NumberOfProducers-male
+    - NumberOfProducers-femlae
+    - NumberOfProducersLinked-male
+    - NumberOfProducersLinked-female
   baseKpi:
     - KEY
     - source
@@ -376,6 +390,21 @@ fieldLevelAssessment:
       - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-numberOfMaleCOOP
       - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-numberOfFemaleCOOP
       - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-numberOfYouthCOOP
+      - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-GoodAgronomicpractices
+      - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-MyCoop
+      - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-RecordKeeping
+      - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-FemaleLeadership
+      - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-YouthkickOffParticipation
+      - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-BasicFinancialManagement
+      - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-Marketing
+      - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-GlobalGAP
+      - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-PostHarvestHandling
+      - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-InternationalMarketrequirement
+    producersCOOPCompany:
+      - NumberOfProducers-male
+      - NumberOfProducers-femlae
+      - NumberOfProducersLinked-male
+      - NumberOfProducersLinked-female
 companyLevelAssessment:
   headers:
     - start
@@ -491,8 +520,18 @@ companyLevelAssessment:
     - IncreasedLong_termBuyingCommitments-numberOfEndBuyersLong_term
     - IncreasedLong_termBuyingCommitments-numberOfEndBuyersShort_term
     - IncreaseInSalesRevenue
-    - reductionInPost-harvestLoss
+    - reductionInPost_harvestLoss_ownProduction
+    - reductionInPost_harvestLoss_outgrower
+    - trainingOfWorkers-pack_house
+    - trainingOfWorkers-field_level
     - volumeOfHorticulturalProduceExportedToPremiumMarkets
+    - IncreasedLong_termBuyingCommitments-SMEAdoptingRequiredInternationalFoodSafetyStandards
+    - IncreasedLong_termBuyingCommitments-smeCertification-HACCP
+    - IncreasedLong_termBuyingCommitments-smeCertification-GlobalGAP
+    - IncreasedLong_termBuyingCommitments-smeCertification-BRC
+    - IncreasedLong_termBuyingCommitments-smeCertification-SMETA
+    - IncreasedLong_termBuyingCommitments-smeCertification-ETI
+    - IncreasedLong_termBuyingCommitments-smeCertification-FAIRTRADE
   baseKpi:
     - assessmentPeriod-year
     - assessmentPeriod-quarter
@@ -501,8 +540,13 @@ companyLevelAssessment:
     - source
     - country
   kpiOutput:
+    trainingOfWorkersSMECompany:
+      - trainingOfWorkers-pack_house
+      - trainingOfWorkers-field_level
     reductionInPost-harvestLossSMECompany:
-      - reductionInPost-harvestLoss
+      - reductionInPost_harvestLoss_ownProduction
+    reductionInPost-harvestLoss2SMECompany:
+      - reductionInPost_harvestLoss_outgrower
     volumeOfHorticulturalProduceExportedToPremiumMarketsSMECompany:
       - volumeOfHorticulturalProduceExportedToPremiumMarkets
     employmentOpportunitiesSMECompany:
@@ -630,5 +674,12 @@ companyLevelAssessment:
       - IncreasedLong_termBuyingCommitments-rejectionRateOfProduce
       - IncreasedLong_termBuyingCommitments-numberOfEndBuyersLong_term
       - IncreasedLong_termBuyingCommitments-numberOfEndBuyersShort_term
+      - IncreasedLong_termBuyingCommitments-smeCertification-HACCP
+      - IncreasedLong_termBuyingCommitments-smeCertification-GlobalGAP
+      - IncreasedLong_termBuyingCommitments-smeCertification-BRC
+      - IncreasedLong_termBuyingCommitments-smeCertification-SMETA
+      - IncreasedLong_termBuyingCommitments-smeCertification-ETI
+      - IncreasedLong_termBuyingCommitments-smeCertification-FAIRTRADE
     IncreaseInSalesRevenueSMECompany:
       - IncreaseInSalesRevenue
+
