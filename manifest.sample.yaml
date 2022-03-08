@@ -172,8 +172,8 @@ fieldLevelAssessment:
     - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-numberMaleFarmers
     - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-numberFemaleFarmers
     - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-total
-    - AccesstoInputsandImprovedYields-volumesOfInputsSoldToFarmers-VolumeForMale,
-    - AccesstoInputsandImprovedYields-volumesOfInputsSoldToFarmers-VolumeForFemale,
+    - AccesstoInputsandImprovedYields-volumesOfInputsSoldToFarmers-VolumeForMale
+    - AccesstoInputsandImprovedYields-volumesOfInputsSoldToFarmers-VolumeForFemale
     - AccesstoInputsandImprovedYields-numberOfFarmersReached
     - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-NumberOfMaleOnGAP
     - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-NumberOfFemaleOnGAP
