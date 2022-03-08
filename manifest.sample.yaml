@@ -172,8 +172,8 @@ fieldLevelAssessment:
     - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-numberMaleFarmers
     - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-numberFemaleFarmers
     - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-total
-    - AccesstoInputsandImprovedYields-volumesOfInputsSoldToFarmers-VolumeForMale
-    - AccesstoInputsandImprovedYields-volumesOfInputsSoldToFarmers-VolumeForFemale
+    - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-VolumeForMale
+    - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-VolumeForFemale
     - AccesstoInputsandImprovedYields-numberOfFarmersReached
     - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-NumberOfMaleOnGAP
     - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-NumberOfFemaleOnGAP
@@ -342,8 +342,8 @@ fieldLevelAssessment:
       - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-numberMaleFarmers
       - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-numberFemaleFarmers
       - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-total
-      - AccesstoInputsandImprovedYields-volumesOfInputsSoldToFarmers-VolumeForMale
-      - AccesstoInputsandImprovedYields-volumesOfInputsSoldToFarmers-VolumeForFemale
+      - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-VolumeForMale
+      - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-VolumeForFemale
       - AccesstoInputsandImprovedYields-numberOfFarmersReached
       - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-NumberOfMaleOnGAP
       - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-NumberOfFemaleOnGAP
@@ -491,7 +491,7 @@ companyLevelAssessment:
     - IncreasedLong-termBuyingCommitments-numberOfEndBuyersLong_term
     - IncreasedLong-termBuyingCommitments-numberOfEndBuyersShort_term
     - IncreaseInSalesRevenue
-    - reductionInPost_harvestLoss
+    - reductionInPost-harvestLoss
     - volumeOfHorticulturalProduceExportedToPremiumMarkets
   baseKpi:
     - assessmentPeriod-year
@@ -501,6 +501,8 @@ companyLevelAssessment:
     - source
     - country
   kpiOutput:
+    reductionInPost-harvestLossSMECompany:
+      - reductionInPost-harvestLoss
     volumeOfHorticulturalProduceExportedToPremiumMarketsSMECompany:
       - volumeOfHorticulturalProduceExportedToPremiumMarkets
     employmentOpportunitiesSMECompany:
@@ -630,5 +632,3 @@ companyLevelAssessment:
       - IncreasedLong-termBuyingCommitments-numberOfEndBuyersShort_term
     IncreaseInSalesRevenueSMECompany:
       - IncreaseInSalesRevenue
-    reductionInPost-harvestLossSMECompany:
-      - reductionInPost_harvestLoss
