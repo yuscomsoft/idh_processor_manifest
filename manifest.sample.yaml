@@ -172,8 +172,8 @@ fieldLevelAssessment:
     - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-numberMaleFarmers
     - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-numberFemaleFarmers
     - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-total
-    - AccesstoInputsandImprovedYields-volumesOfInputsSoldToFarmers-volumeForMale,
-    - AccesstoInputsandImprovedYields-volumesOfInputsSoldToFarmers-volumeForFemale,
+    - AccesstoInputsandImprovedYields-volumesOfInputsSoldToFarmers-VolumeForMale,
+    - AccesstoInputsandImprovedYields-volumesOfInputsSoldToFarmers-VolumeForFemale,
     - AccesstoInputsandImprovedYields-numberOfFarmersReached
     - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-NumberOfMaleOnGAP
     - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-NumberOfFemaleOnGAP
@@ -181,7 +181,7 @@ fieldLevelAssessment:
     - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-adoptionOfMale
     - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-adoptionOfFemale
     - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-total
-    - AccesstoInputsandImprovedYields-averageSeason-AYields
+    - AccesstoInputsandImprovedYields-averageSeason_AYields
     - AccessToFinancialServices-NumberOfFarmersAccessingFinancialServices-numberOfMale
     - AccessToFinancialServices-NumberOfFarmersAccessingFinancialServices-numberOfFemale
     - AccessToFinancialServices-loansProvidedToFarmers
@@ -342,8 +342,8 @@ fieldLevelAssessment:
       - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-numberMaleFarmers
       - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-numberFemaleFarmers
       - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-total
-      - AccesstoInputsandImprovedYields-volumesOfInputsSoldToFarmers-volumeForMale,
-      - AccesstoInputsandImprovedYields-volumesOfInputsSoldToFarmers-volumeForFemale,
+      - AccesstoInputsandImprovedYields-volumesOfInputsSoldToFarmers-VolumeForMale,
+      - AccesstoInputsandImprovedYields-volumesOfInputsSoldToFarmers-VolumeForFemale,
       - AccesstoInputsandImprovedYields-numberOfFarmersReached
       - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-NumberOfMaleOnGAP
       - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-NumberOfFemaleOnGAP
@@ -351,7 +351,7 @@ fieldLevelAssessment:
       - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-adoptionOfMale
       - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-adoptionOfFemale
       - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-total
-      - AccesstoInputsandImprovedYields-averageSeason-AYields
+      - AccesstoInputsandImprovedYields-averageSeason_AYields
     accessToFinancialServicesCOOPCompany:
       - AccessToFinancialServices-NumberOfFarmersAccessingFinancialServices-numberOfMale
       - AccessToFinancialServices-NumberOfFarmersAccessingFinancialServices-numberOfFemale
@@ -488,10 +488,10 @@ companyLevelAssessment:
     - employmentOpportunities-casualEmployment-numberOfYouthSME
     - IncreasedLong-termBuyingCommitments-SMEAdoptingRequiredInternationalFoodSafetyStandards
     - IncreasedLong-termBuyingCommitments-rejectionRateOfProduce
-    - IncreasedLong-termBuyingCommitments-numberOfEndBuyersLong-term
-    - IncreasedLong-termBuyingCommitments-numberOfEndBuyersShort-term
+    - IncreasedLong-termBuyingCommitments-numberOfEndBuyersLong_term
+    - IncreasedLong-termBuyingCommitments-numberOfEndBuyersShort_term
     - IncreaseInSalesRevenue
-    - reductionInPost-harvestLoss
+    - reductionInPost_harvestLoss
     - volumeOfHorticulturalProduceExportedToPremiumMarkets
   baseKpi:
     - assessmentPeriod-year
@@ -626,9 +626,9 @@ companyLevelAssessment:
     buyingCommitmentsSMECompany:
       - IncreasedLong-termBuyingCommitments-SMEAdoptingRequiredInternationalFoodSafetyStandards
       - IncreasedLong-termBuyingCommitments-rejectionRateOfProduce
-      - IncreasedLong-termBuyingCommitments-numberOfEndBuyersLong-term
-      - IncreasedLong-termBuyingCommitments-numberOfEndBuyersShort-term
+      - IncreasedLong-termBuyingCommitments-numberOfEndBuyersLong_term
+      - IncreasedLong-termBuyingCommitments-numberOfEndBuyersShort_term
     IncreaseInSalesRevenueSMECompany:
       - IncreaseInSalesRevenue
     reductionInPost-harvestLossSMECompany:
-      - reductionInPost-harvestLoss
+      - reductionInPost_harvestLoss
