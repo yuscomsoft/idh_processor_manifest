@@ -515,23 +515,22 @@ companyLevelAssessment:
     - employmentOpportunities-casualEmployment-numberOfMaleSME
     - employmentOpportunities-casualEmployment-numberOfFemaleSME
     - employmentOpportunities-casualEmployment-numberOfYouthSME
-    - IncreasedLong_termBuyingCommitments-SMEAdoptingRequiredInternationalFoodSafetyStandards
-    - IncreasedLong_termBuyingCommitments-rejectionRateOfProduce
-    - IncreasedLong_termBuyingCommitments-numberOfEndBuyersLong_term
-    - IncreasedLong_termBuyingCommitments-numberOfEndBuyersShort_term
     - IncreaseInSalesRevenue
-    - reductionInPost_harvestLoss_ownProduction
-    - reductionInPost_harvestLoss_outgrower
-    - trainingOfWorkers-pack_house
-    - trainingOfWorkers-field_level
+    - reductionInPost-harvestLoss-ownProduction
+    - reductionInPost-harvestLoss-outgrower
+    - trainingOfWorkers-pack-house
+    - trainingOfWorkers-field-level
     - volumeOfHorticulturalProduceExportedToPremiumMarkets
+    - IncreasedLong-termBuyingCommitments-rejectionRateOfProduce
+    - IncreasedLong-termBuyingCommitments-numberOfEndBuyersLong-term
+    - IncreasedLong-termBuyingCommitments-numberOfEndBuyersShort-term
     - IncreasedLong_termBuyingCommitments-SMEAdoptingRequiredInternationalFoodSafetyStandards
-    - IncreasedLong_termBuyingCommitments-smeCertification-HACCP
-    - IncreasedLong_termBuyingCommitments-smeCertification-GlobalGAP
-    - IncreasedLong_termBuyingCommitments-smeCertification-BRC
-    - IncreasedLong_termBuyingCommitments-smeCertification-SMETA
-    - IncreasedLong_termBuyingCommitments-smeCertification-ETI
-    - IncreasedLong_termBuyingCommitments-smeCertification-FAIRTRADE
+    - IncreasedLong-termBuyingCommitments-smeCertification-HACCP
+    - IncreasedLong-termBuyingCommitments-smeCertification-GlobalGAP
+    - IncreasedLong-termBuyingCommitments-smeCertification-BRC
+    - IncreasedLong-termBuyingCommitments-smeCertification-SMETA
+    - IncreasedLong-termBuyingCommitments-smeCertification-ETI
+    - IncreasedLong-termBuyingCommitments-smeCertification-FAIRTRADE
   baseKpi:
     - assessmentPeriod-year
     - assessmentPeriod-quarter
@@ -541,12 +540,12 @@ companyLevelAssessment:
     - country
   kpiOutput:
     trainingOfWorkersSMECompany:
-      - trainingOfWorkers-pack_house
-      - trainingOfWorkers-field_level
+      - trainingOfWorkers-pack-house
+      - trainingOfWorkers-field-level
     reductionInPost-harvestLossSMECompany:
-      - reductionInPost_harvestLoss_ownProduction
+      - reductionInPost-harvestLoss-ownProduction
     reductionInPost-harvestLoss2SMECompany:
-      - reductionInPost_harvestLoss_outgrower
+      - reductionInPost-harvestLoss-outgrower
     volumeOfHorticulturalProduceExportedToPremiumMarketsSMECompany:
       - volumeOfHorticulturalProduceExportedToPremiumMarkets
     employmentOpportunitiesSMECompany:
@@ -670,16 +669,16 @@ companyLevelAssessment:
       - FoodAndAgricommodityTrade-volumeTradedAcrossBordersWithinAfrica
       - FoodAndAgricommodityTrade-volumeTradedInternationallyOutsideAfrica
     buyingCommitmentsSMECompany:
-      - IncreasedLong_termBuyingCommitments-SMEAdoptingRequiredInternationalFoodSafetyStandards
-      - IncreasedLong_termBuyingCommitments-rejectionRateOfProduce
-      - IncreasedLong_termBuyingCommitments-numberOfEndBuyersLong_term
-      - IncreasedLong_termBuyingCommitments-numberOfEndBuyersShort_term
-      - IncreasedLong_termBuyingCommitments-smeCertification-HACCP
-      - IncreasedLong_termBuyingCommitments-smeCertification-GlobalGAP
-      - IncreasedLong_termBuyingCommitments-smeCertification-BRC
-      - IncreasedLong_termBuyingCommitments-smeCertification-SMETA
-      - IncreasedLong_termBuyingCommitments-smeCertification-ETI
-      - IncreasedLong_termBuyingCommitments-smeCertification-FAIRTRADE
+      - IncreasedLong-termBuyingCommitments-SMEAdoptingRequiredInternationalFoodSafetyStandards
+      - IncreasedLong-termBuyingCommitments-rejectionRateOfProduce
+      - IncreasedLong-termBuyingCommitments-numberOfEndBuyersLong-term
+      - IncreasedLong-termBuyingCommitments-numberOfEndBuyersShort-term
+      - IncreasedLong-termBuyingCommitments-smeCertification-HACCP
+      - IncreasedLong-termBuyingCommitments-smeCertification-GlobalGAP
+      - IncreasedLong-termBuyingCommitments-smeCertification-BRC
+      - IncreasedLong-termBuyingCommitments-smeCertification-SMETA
+      - IncreasedLong-termBuyingCommitments-smeCertification-ETI
+      - IncreasedLong-termBuyingCommitments-smeCertification-FAIRTRADE
     IncreaseInSalesRevenueSMECompany:
       - IncreaseInSalesRevenue
 
