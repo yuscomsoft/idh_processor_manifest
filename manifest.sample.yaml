@@ -76,6 +76,7 @@ fieldLevelAssessment:
     - assessmentPeriod-quarter
     - farmerType
     - farmSize
+    - cooperative
     - aggregation-farmSize
     - aggregation-valueChainFarmSize
     - aggregation-productionOutput
@@ -163,51 +164,55 @@ fieldLevelAssessment:
     - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-sustainableLandManagementPractices
     - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-communityParticipationinNaturalResouresManagement
     - adoptionOfTechnology-numberOfLandUsed
-    - AccesstoInputsandImprovedYields-framersReached-numberOfMaleReached
-    - AccesstoInputsandImprovedYields-framersReached-numberOfFemaleReached
-    - AccesstoInputsandImprovedYields-framersReached-total
-    - AccesstoInputsandImprovedYields-farmersReceivingServices-numberOfMale
-    - AccesstoInputsandImprovedYields-farmersReceivingServices-numberOfFemale
-    - AccesstoInputsandImprovedYields-farmersReceivingServices-total
-    - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-numberMaleFarmers
-    - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-numberFemaleFarmers
-    - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-total
-    - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-VolumeForMale
-    - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-VolumeForFemale
+    - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Male
+    - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Female
+    - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Youth
+    - AccesstoInputsandImprovedYields-framersReached-Male
+    - AccesstoInputsandImprovedYields-framersReached-Female
+    - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-Male
+    - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-Female
+    - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-volumeOfSeed
+    - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-volumeOfFertilizer
+    - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-volumeOfAgrochemical-MT
+    - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-volumeOfAgrochemical-LITRES
+    - AccesstoInputsandImprovedYields-numberOfDemostrationFarms
     - AccesstoInputsandImprovedYields-numberOfFarmersReached
-    - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-NumberOfMaleOnGAP
-    - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-NumberOfFemaleOnGAP
-    - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-total
-    - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-adoptionOfMale
-    - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-adoptionOfFemale
-    - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-total
+    - AccesstoInputsandImprovedYields-numberOfFarmersTrained-Male
+    - AccesstoInputsandImprovedYields-numberOfFarmersTrained-Female
+    - AccesstoInputsandImprovedYields-numberOfFarmersTrained-Youth
+    - AccesstoInputsandImprovedYields-numbersTrainedBySubject-numberOnGAP
+    - AccesstoInputsandImprovedYields-numbersTrainedBySubject-numberOnMYCOOP
+    - AccesstoInputsandImprovedYields-numbersTrainedBySubject-numberOnFemaleLeadership
+    - AccesstoInputsandImprovedYields-numbersTrainedBySubject-numberOnBasicFinancialManagement
+    - AccesstoInputsandImprovedYields-numbersTrainedBySubject-numberOnPostHarvetHandling
+    - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-Male
+    - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-Female
     - AccesstoInputsandImprovedYields-averageSeason_AYields
-    - AccessToFinancialServices-NumberOfFarmersAccessingFinancialServices-numberOfMale
-    - AccessToFinancialServices-NumberOfFarmersAccessingFinancialServices-numberOfFemale
+    - AccesstoInputsandImprovedYields-farmersReachedThroughFarmerFieldDays-conductFarmersFieldDay
+    - AccesstoInputsandImprovedYields-farmersReachedThroughFarmerFieldDays-numberOfFarmers
+    - AccessToFinancialServices-NumberOfFarmersAccessingFinancialServices-Male
+    - AccessToFinancialServices-NumberOfFarmersAccessingFinancialServices-Female
     - AccessToFinancialServices-loansProvidedToFarmers
-    - AccessToFinancialServices-AverageloanSizePaidToFarmers-maleAverage
-    - AccessToFinancialServices-AverageloanSizePaidToFarmers-femaleAverage
-    - AccessToFinancialServices-AverageloanSizePaidToFarmers-total
-    - improvingSourceing-farmersSupplyingGradeOneMaize-maleSupplers
-    - improvingSourceing-farmersSupplyingGradeOneMaize-femaleSupplers
-    - improvingSourceing-farmersSupplyingGradeOneMaize-total
+    - AccessToFinancialServices-AverageloanSizePaidToFarmers-Male
+    - AccessToFinancialServices-AverageloanSizePaidToFarmers-Female
+    - AccessToFinancialServices-valueOfCreditReceived-Male
+    - AccessToFinancialServices-valueOfCreditReceived-Female
+    - improvingSourceing-farmersSupplyingGradeOneMaize-Male
+    - improvingSourceing-farmersSupplyingGradeOneMaize-Female
     - improvingSourceing-averageNetIncomesOfCooperatives
     - improvingSourceing-averagePricePaidToFarmers
-    - improvingSourceing-IncreaseInNetIncomes-male
-    - improvingSourceing-IncreaseInNetIncomes-female
-    - improvingSourceing-IncreaseInNetIncomes-total
-    - employmentOpportunities-permanentEmployment-numberOfMaleCOOP
-    - employmentOpportunities-permanentEmployment-numberOfFemaleCOOP
-    - employmentOpportunities-permanentEmployment-numberOfYouthCOOP
-    - employmentOpportunities-casualEmployment-numberOfMaleCOOP
-    - employmentOpportunities-casualEmployment-numberOfFemaleCOOP
-    - employmentOpportunities-casualEmployment-numberOfYouthCOOP
-    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-numberOfMaleCOOP
-    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-numberOfFemaleCOOP
-    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-numberOfYouthCOOP
-    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-numberOfMaleCOOP
-    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-numberOfFemaleCOOP
-    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-numberOfYouthCOOP
+    - employmentOpportunities-permanentEmploymentCOOP-Male
+    - employmentOpportunities-permanentEmploymentCOOP-Female
+    - employmentOpportunities-permanentEmploymentCOOP-Youth
+    - employmentOpportunities-casualEmploymentCOOP-Male
+    - employmentOpportunities-casualEmploymentCOOP-Female
+    - employmentOpportunities-casualEmploymentCOOP-Youth
+    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-Male
+    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-Female
+    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-Youth
+    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Male
+    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Female
+    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Youth
     - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-GoodAgronomicpractices
     - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-MyCoop
     - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-RecordKeeping
@@ -222,6 +227,8 @@ fieldLevelAssessment:
     - NumberOfProducers-femlae
     - NumberOfProducersLinked-male
     - NumberOfProducersLinked-female
+      - CIT-CooperativesReceivedTrainingFromCooperativeCoaches
+      - CIT-RegisteredAsAgroDealers
   baseKpi:
     - KEY
     - source
@@ -234,13 +241,18 @@ fieldLevelAssessment:
     - farmersId
     - produce
   kpiOutput:
+    cooperativeImprovementTrackCOOPCompany:
+      - cooperative
+      - CIT-CooperativesReceivedTrainingFromCooperativeCoaches
+      - CIT-RegisteredAsAgroDealers
     employmentOpportunitiesCOOPCompany:
-      - employmentOpportunities-permanentEmployment-numberOfMaleCOOP
-      - employmentOpportunities-permanentEmployment-numberOfFemaleCOOP
-      - employmentOpportunities-permanentEmployment-numberOfYouthCOOP
-      - employmentOpportunities-casualEmployment-numberOfMaleCOOP
-      - employmentOpportunities-casualEmployment-numberOfFemaleCOOP
-      - employmentOpportunities-casualEmployment-numberOfYouthCOOP
+      - cooperative
+      - employmentOpportunities-permanentEmploymentCOOP-Male
+      - employmentOpportunities-permanentEmploymentCOOP-Female
+      - employmentOpportunities-permanentEmploymentCOOP-Youth
+      - employmentOpportunities-casualEmploymentCOOP-Male
+      - employmentOpportunities-casualEmploymentCOOP-Female
+      - employmentOpportunities-casualEmploymentCOOP-Youth
     accessToFinanceField:
       - accesstoFinance-accessToFinance
       - accesstoFinance-newAccessToFinance
@@ -347,49 +359,61 @@ fieldLevelAssessment:
       - farmersId
       - farmerType
     accessToInputsAndImprovedYieldsCOOPCompany:
-      - AccesstoInputsandImprovedYields-framersReached-numberOfMaleReached
-      - AccesstoInputsandImprovedYields-framersReached-numberOfFemaleReached
-      - AccesstoInputsandImprovedYields-framersReached-total
-      - AccesstoInputsandImprovedYields-farmersReceivingServices-numberOfMale
-      - AccesstoInputsandImprovedYields-farmersReceivingServices-numberOfFemale
-      - AccesstoInputsandImprovedYields-farmersReceivingServices-total
-      - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-numberMaleFarmers
-      - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-numberFemaleFarmers
-      - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-total
-      - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-VolumeForMale
-      - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-VolumeForFemale
+      - cooperative
+      - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Male
+      - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Female
+      - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Youth
+      - AccesstoInputsandImprovedYields-framersReached-Male
+      - AccesstoInputsandImprovedYields-framersReached-Female
+      - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-Male
+      - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-Female
+      - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-volumeOfSeed
+      - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-volumeOfFertilizer
+      - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-volumeOfAgrochemical-MT
+      - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-volumeOfAgrochemical-LITRES
+      - AccesstoInputsandImprovedYields-numberOfDemostrationFarms
       - AccesstoInputsandImprovedYields-numberOfFarmersReached
-      - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-NumberOfMaleOnGAP
-      - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-NumberOfFemaleOnGAP
-      - AccesstoInputsandImprovedYields-farmersTrainedOnGoodAgronomicPractices-total
-      - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-adoptionOfMale
-      - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-adoptionOfFemale
-      - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-total
+      - AccesstoInputsandImprovedYields-numberOfFarmersTrained-Male
+      - AccesstoInputsandImprovedYields-numberOfFarmersTrained-Female
+      - AccesstoInputsandImprovedYields-numberOfFarmersTrained-Youth
+      - AccesstoInputsandImprovedYields-numbersTrainedBySubject-numberOnGAP
+      - AccesstoInputsandImprovedYields-numbersTrainedBySubject-numberOnMYCOOP
+      - AccesstoInputsandImprovedYields-numbersTrainedBySubject-numberOnFemaleLeadership
+      - AccesstoInputsandImprovedYields-numbersTrainedBySubject-numberOnBasicFinancialManagement
+      - AccesstoInputsandImprovedYields-numbersTrainedBySubject-numberOnPostHarvetHandling
+      - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-Male
+      - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-Female
       - AccesstoInputsandImprovedYields-averageSeason_AYields
+      - AccesstoInputsandImprovedYields-farmersReachedThroughFarmerFieldDays-conductFarmersFieldDay
+      - AccesstoInputsandImprovedYields-farmersReachedThroughFarmerFieldDays-numberOfFarmers
     accessToFinancialServicesCOOPCompany:
-      - AccessToFinancialServices-NumberOfFarmersAccessingFinancialServices-numberOfMale
-      - AccessToFinancialServices-NumberOfFarmersAccessingFinancialServices-numberOfFemale
+      - cooperative
+      - AccessToFinancialServices-NumberOfFarmersAccessingFinancialServices-Male
+      - AccessToFinancialServices-NumberOfFarmersAccessingFinancialServices-Female
       - AccessToFinancialServices-loansProvidedToFarmers
-      - AccessToFinancialServices-AverageloanSizePaidToFarmers-maleAverage
-      - AccessToFinancialServices-AverageloanSizePaidToFarmers-femaleAverage
-      - AccessToFinancialServices-AverageloanSizePaidToFarmers-total
+      - AccessToFinancialServices-AverageloanSizePaidToFarmers-Male
+      - AccessToFinancialServices-AverageloanSizePaidToFarmers-Female
+      - AccessToFinancialServices-valueOfCreditReceived-Male
+      - AccessToFinancialServices-valueOfCreditReceived-Female
     improvedSourcingaCOOPCompany:
-      - improvingSourceing-farmersSupplyingGradeOneMaize-maleSupplers
-      - improvingSourceing-farmersSupplyingGradeOneMaize-femaleSupplers
-      - improvingSourceing-farmersSupplyingGradeOneMaize-total
+      - cooperative
+      - improvingSourceing-farmersSupplyingGradeOneMaize-Male
+      - improvingSourceing-farmersSupplyingGradeOneMaize-Female
       - improvingSourceing-averageNetIncomesOfCooperatives
       - improvingSourceing-averagePricePaidToFarmers
-      - improvingSourceing-IncreaseInNetIncomes-male
-      - improvingSourceing-IncreaseInNetIncomes-female
-      - improvingSourceing-IncreaseInNetIncomes-total
     adoptionOfGoodAgriculturalPracticesCOOPCompany:
-      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-numberOfMaleCOOP
-      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-numberOfFemaleCOOP
-      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-numberOfYouthCOOP
+      - cooperative
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Male
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Female
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Youth
     numberOfFarmersTrainedCOOPCompany:
-      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-numberOfMaleCOOP
-      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-numberOfFemaleCOOP
-      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-numberOfYouthCOOP
+      - cooperative
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-Male
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-Female
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-Youth
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Male
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Female
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Youth
       - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-GoodAgronomicpractices
       - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-MyCoop
       - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-RecordKeeping
@@ -401,6 +425,7 @@ fieldLevelAssessment:
       - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-PostHarvestHandling
       - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-InternationalMarketrequirement
     producersCOOPCompany:
+      - cooperative
       - NumberOfProducers-male
       - NumberOfProducers-femlae
       - NumberOfProducersLinked-male
@@ -477,28 +502,21 @@ companyLevelAssessment:
     - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-total
     - CIT-numberOfCooprativesOnboarded
     - CIT-numberOfCooprativesReceivedTraining
-    - CIT-numberOfCooprativeCoachesRecruitedandTrained
-    - CIT-numberOfCooprativesThatReceivedTrainingFromCooprativeCoaches
+    - CIT-cooperativeCoaches-numberOfCooperativeCoaches-Recruited
+    - CIT-cooperativeCoaches-numberOfCooperativeCoaches-Trained
     - CIT-numberOfCooprativeManagers
-    - CIT-numberOfRegisteredAgroDealers
     - CIT-numberOfCooprativesRackedAsBasicInCIT
     - CIT-numberOfCooprativesRackedAsMember-orientedInCIT
     - CIT-numberOfCooprativesRackedAsGrowth-orientedInCIT
     - CIT-numberOfCooprativesRackedAsMatureInCIT
     - AccesstoInputsandImprovedYields-numberOfMOUSigned
-    - AccesstoInputsandImprovedYields-numberOfFarmsEstablisted
-    - AccesstoInputsandImprovedYields-numberOfFieldDaysLinkedToDemonstrationFarms
     - AccessToFinancialServices-financingFacility
     - AccessToFinancialServices-amountOfFiancingFacility
     - AccessToFinancialServices-numberOfCooperativesAccessingFinancialServices
     - AccessToFinancialServices-numberOfLoanServicesProvided
-    - AccessToFinancialServices-financeLentToFarmers-male
-    - AccessToFinancialServices-financeLentToFarmers-female
-    - AccessToFinancialServices-financeLentToFarmers-total
     - AccessToFinancialServices-TotalPre_financingFacility
     - AccessToFinancialServices-averageInterestRate
     - ImprovedSourcing-sourcingContractAgreement
-    - ImprovedSourcing-volumeOfGradeOneMaizeContractedInSeason-A
     - ImprovedSourcing-volumeOfGradeOneMaizeContractedWithCIT
     - ImprovedSourcing-volumeOfGradeOneMaizeContractedFromCIT
     - ImprovedSourcing-averagePricePaidToCooperatives
@@ -509,12 +527,12 @@ companyLevelAssessment:
     - FoodAndAgricommodityTrade-volumeTradedWithinCountry
     - FoodAndAgricommodityTrade-volumeTradedAcrossBordersWithinAfrica
     - FoodAndAgricommodityTrade-volumeTradedInternationallyOutsideAfrica
-    - employmentOpportunities-permanentEmployment-NumberOfMaleSME
-    - employmentOpportunities-permanentEmployment-NumberOfFemaleSME
-    - employmentOpportunities-permanentEmployment-NumberOfYouthSME
-    - employmentOpportunities-casualEmployment-numberOfMaleSME
-    - employmentOpportunities-casualEmployment-numberOfFemaleSME
-    - employmentOpportunities-casualEmployment-numberOfYouthSME
+    - employmentOpportunitiesSME-permanentEmployment-Male
+    - employmentOpportunitiesSME-permanentEmployment-Female
+    - employmentOpportunitiesSME-permanentEmployment-Youth
+    - employmentOpportunitiesSME-casualEmployment-Male
+    - employmentOpportunitiesSME-casualEmployment-Female
+    - employmentOpportunitiesSME-casualEmployment-Youth
     - IncreaseInSalesRevenue
     - reductionInPost-harvestLoss-ownProduction
     - reductionInPost-harvestLoss-outgrower
@@ -549,12 +567,12 @@ companyLevelAssessment:
     volumeOfHorticulturalProduceExportedToPremiumMarketsSMECompany:
       - volumeOfHorticulturalProduceExportedToPremiumMarkets
     employmentOpportunitiesSMECompany:
-      - employmentOpportunities-permanentEmployment-numberOfMaleSME
-      - employmentOpportunities-permanentEmployment-numberOfFemaleSME
-      - employmentOpportunities-permanentEmployment-numberOfYouthSME
-      - employmentOpportunities-casualEmployment-numberOfMaleSME
-      - employmentOpportunities-casualEmployment-numberOfFemaleSME
-      - employmentOpportunities-casualEmployment-numberOfYouthSME
+      - employmentOpportunitiesSME-permanentEmployment-Male
+      - employmentOpportunitiesSME-permanentEmployment-Female
+      - employmentOpportunitiesSME-permanentEmployment-Youth
+      - employmentOpportunitiesSME-casualEmployment-Male
+      - employmentOpportunitiesSME-casualEmployment-Female
+      - employmentOpportunitiesSME-casualEmployment-Youth
     privateInvestmentsCompany:
       - privateInvestments-sectorInvestment
     projectSpendingCompany:
@@ -632,33 +650,26 @@ companyLevelAssessment:
     cooperativeImprovementTrackCompany:
       - CIT-numberOfCooprativesOnboarded
       - CIT-numberOfCooprativesReceivedTraining
-      - CIT-numberOfCooprativeCoachesRecruitedandTrained
-      - CIT-numberOfCooprativesThatReceivedTrainingFromCooprativeCoaches
+      - CIT-cooperativeCoaches-numberOfCooprativeCoachesTrained
+      - CIT-cooperativeCoaches-numberOfCooprativeCoachesRecruited
       - CIT-numberOfCooprativeManagers
-      - CIT-numberOfRegisteredAgroDealers
       - CIT-numberOfCooprativesRackedAsBasicInCIT
       - CIT-numberOfCooprativesRackedAsMember-orientedInCIT
       - CIT-numberOfCooprativesRackedAsGrowth-orientedInCIT
       - CIT-numberOfCooprativesRackedAsMatureInCIT
     accessToInputsAndImprovedYieldsAIFCompany:
       - AccesstoInputsandImprovedYields-numberOfMOUSigned
-      - AccesstoInputsandImprovedYields-numberOfFarmsEstablisted
-      - AccesstoInputsandImprovedYields-numberOfFieldDaysLinkedToDemonstrationFarms
     accessToFinancialServicesAIFCompany:
       - AccessToFinancialServices-financingFacility
       - AccessToFinancialServices-amountOfFiancingFacility
       - AccessToFinancialServices-numberOfCooperativesAccessingFinancialServices
       - AccessToFinancialServices-numberOfLoanServicesProvided
-      - AccessToFinancialServices-financeLentToFarmers-male
-      - AccessToFinancialServices-financeLentToFarmers-female
-      - AccessToFinancialServices-financeLentToFarmers-total
       - AccessToFinancialServices-TotalPre_financingFacility
       - AccessToFinancialServices-averageInterestRate
     improvedSourcingaAIFCompany:
       - ImprovedSourcing-sourcingContractAgreement
-      - ImprovedSourcing-volumeOfGradeOneMaizeContractedInSeason-A
       - ImprovedSourcing-volumeOfGradeOneMaizeContractedWithCIT
-      - ImprovedSourcing-volumeOfGradeOneMaizeSourcedFromCIT
+      - ImprovedSourcing-volumeOfGradeOneMaizeContractedFromCIT
       - ImprovedSourcing-averagePricePaidToCooperatives
       - ImprovedSourcing-offtakePayments
       - ImprovedSourcing-averageSeason-AContractDefaultRate
