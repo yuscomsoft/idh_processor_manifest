@@ -227,8 +227,8 @@ fieldLevelAssessment:
     - NumberOfProducers-femlae
     - NumberOfProducersLinked-male
     - NumberOfProducersLinked-female
-      - CIT-CooperativesReceivedTrainingFromCooperativeCoaches
-      - CIT-RegisteredAsAgroDealers
+    - CIT-numberOfCooperativesReceivingTrainingFromCooperativeCoaches
+    - CIT-numberOfCooperativesRegisteredAsAgroDealers
   baseKpi:
     - KEY
     - source
@@ -243,8 +243,8 @@ fieldLevelAssessment:
   kpiOutput:
     cooperativeImprovementTrackCOOPCompany:
       - cooperative
-      - CIT-CooperativesReceivedTrainingFromCooperativeCoaches
-      - CIT-RegisteredAsAgroDealers
+      - CIT-numberOfCooperativesReceivingTrainingFromCooperativeCoaches
+      - CIT-numberOfCooperativesRegisteredAsAgroDealers
     employmentOpportunitiesCOOPCompany:
       - cooperative
       - employmentOpportunities-permanentEmploymentCOOP-Male
@@ -647,11 +647,11 @@ companyLevelAssessment:
       - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-sub_aggregatorsNumberOfFemale
       - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-numberOfYouth
       - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-total
-    cooperativeImprovementTrackCompany:
+    cooperativeImprovementTrackAIFCompany:
       - CIT-numberOfCooprativesOnboarded
       - CIT-numberOfCooprativesReceivedTraining
-      - CIT-cooperativeCoaches-numberOfCooprativeCoachesTrained
-      - CIT-cooperativeCoaches-numberOfCooprativeCoachesRecruited
+      - CIT-cooperativeCoaches-numberOfCooperativeCoaches-Recruited
+      - CIT-cooperativeCoaches-numberOfCooperativeCoaches-Trained
       - CIT-numberOfCooprativeManagers
       - CIT-numberOfCooprativesRackedAsBasicInCIT
       - CIT-numberOfCooprativesRackedAsMember-orientedInCIT
