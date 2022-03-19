@@ -510,8 +510,8 @@ companyLevelAssessment:
     - CIT-numberOfCooprativesRackedAsGrowth-orientedInCIT
     - CIT-numberOfCooprativesRackedAsMatureInCIT
     - AccesstoInputsandImprovedYields-numberOfMOUSigned
-    - AccessToFinancialServices-financingFacility
-    - AccessToFinancialServices-amountOfFiancingFacility
+    - AccessToFinancialServices-financingFacility-included
+    - AccessToFinancialServices-financingFacility-amountOfFiancingFacility
     - AccessToFinancialServices-numberOfCooperativesAccessingFinancialServices
     - AccessToFinancialServices-numberOfLoanServicesProvided
     - AccessToFinancialServices-TotalPre_financingFacility
@@ -660,8 +660,8 @@ companyLevelAssessment:
     accessToInputsAndImprovedYieldsAIFCompany:
       - AccesstoInputsandImprovedYields-numberOfMOUSigned
     accessToFinancialServicesAIFCompany:
-      - AccessToFinancialServices-financingFacility
-      - AccessToFinancialServices-amountOfFiancingFacility
+      - AccessToFinancialServices-financingFacility-included
+      - AccessToFinancialServices-financingFacility-amountOfFiancingFacility
       - AccessToFinancialServices-numberOfCooperativesAccessingFinancialServices
       - AccessToFinancialServices-numberOfLoanServicesProvided
       - AccessToFinancialServices-TotalPre_financingFacility
