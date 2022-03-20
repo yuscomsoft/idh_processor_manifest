@@ -256,14 +256,17 @@ fieldLevelAssessment:
     accessToFinanceField:
       - accesstoFinance-accessToFinance
       - accesstoFinance-newAccessToFinance
+      - cooperative
       - farmerType
     accessToImprovedInputsField:
+      - cooperative
       - accessToImprovedInputs-inputReceived
       - accessToImprovedInputs-typeOfInputReceived
       - accessToImprovedInputs-firstInputReceived
       - accessToImprovedInputs-valueOfInputSold
       - farmerType
     trainingField:
+      - cooperative
       - trainingSection-goodAgronomicPractice
       - trainingSection-goodAgronomicPracticeTopics-siteSelection
       - trainingSection-goodAgronomicPracticeTopics-plantingPractices
@@ -316,6 +319,7 @@ fieldLevelAssessment:
       - contractAndAgreement-guaranteeMarket
       - contractAndAgreement-outputsProduced
     adoptionOfTechnologyField:
+      - cooperative
       - adoptionOfTechnology-gaptraining
       - adoptionOfTechnology-gaptrainingTopics-siteSelection
       - adoptionOfTechnology-gaptrainingTopics-landPreparartion
@@ -347,6 +351,7 @@ fieldLevelAssessment:
       - adoptionOfTechnology-numberOfLandUsed
       - farmerType
     serviceDeliveryField:
+      - cooperative
       - farmerType
     yieldField:
       - outputOrYieldOfFarmer-outputOfFarmer
