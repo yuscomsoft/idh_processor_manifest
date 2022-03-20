@@ -224,7 +224,7 @@ fieldLevelAssessment:
     - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-PostHarvestHandling
     - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-InternationalMarketrequirement
     - NumberOfProducers-male
-    - NumberOfProducers-femlae
+    - NumberOfProducers-female
     - NumberOfProducersLinked-male
     - NumberOfProducersLinked-female
     - CIT-numberOfCooperativesReceivingTrainingFromCooperativeCoaches
@@ -432,7 +432,7 @@ fieldLevelAssessment:
     producersCOOPCompany:
       - cooperative
       - NumberOfProducers-male
-      - NumberOfProducers-femlae
+      - NumberOfProducers-female
       - NumberOfProducersLinked-male
       - NumberOfProducersLinked-female
 companyLevelAssessment:
