@@ -189,6 +189,7 @@ fieldLevelAssessment:
     - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-Female
     - AccesstoInputsandImprovedYields-averageSeason_AYields
     - AccesstoInputsandImprovedYields-farmersReachedThroughFarmerFieldDays-conductFarmersFieldDay
+    - fieldDaysNumberOfFarmers
     - AccessToFinancialServices-NumberOfFarmersAccessingFinancialServices-Male
     - AccessToFinancialServices-NumberOfFarmersAccessingFinancialServices-Female
     - AccessToFinancialServices-loansProvidedToFarmers
@@ -389,6 +390,7 @@ fieldLevelAssessment:
       - AccesstoInputsandImprovedYields-adoptionOfImprovedPracticesOnGAP-Female
       - AccesstoInputsandImprovedYields-averageSeason_AYields
       - AccesstoInputsandImprovedYields-farmersReachedThroughFarmerFieldDays-conductFarmersFieldDay
+      - fieldDaysNumberOfFarmers
     accessToFinancialServicesCOOPCompany:
       - cooperative
       - AccessToFinancialServices-NumberOfFarmersAccessingFinancialServices-Male
