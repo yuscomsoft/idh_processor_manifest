@@ -130,6 +130,10 @@ fieldLevelAssessment:
     - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-grading
     - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-storage
     - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-otherTrainings
+    - trainingSection-climaticInformationServices
+    - trainingSection-diversificationStrategies
+    - trainingSection-landAcquisitionProcesses
+    - trainingSection-newFarmersTrainedOnKeySubjectArea
     - trainingsExtension
     - contractAndAgreement-contract
     - contractAndAgreement-farmersOutputProduced
@@ -163,6 +167,7 @@ fieldLevelAssessment:
     - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-useofAlternativeAndRenewableEnergySources
     - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-sustainableLandManagementPractices
     - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-communityParticipationinNaturalResouresManagement
+    - adoptionOfTechnology-adoptionOfDiversificationPractice
     - adoptionOfTechnology-numberOfLandUsed
     - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Male
     - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Female
@@ -308,6 +313,10 @@ fieldLevelAssessment:
       - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-grading
       - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-storage
       - trainingSection-postHarvestHandlingAndQualityRequirementsTopics-otherTrainings
+      - trainingSection-climaticInformationServices
+      - trainingSection-diversificationStrategies
+      - trainingSection-landAcquisitionProcesses
+      - trainingSection-newFarmersTrainedOnKeySubjectArea
       - farmerType
     trainingExtensionField:
       - trainingsExtension
@@ -348,6 +357,7 @@ fieldLevelAssessment:
       - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-sustainableLandManagementPractices
       - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-communityParticipationinNaturalResouresManagement
       - adoptionOfTechnology-numberOfLandUsed
+      - adoptionOfTechnology-adoptionOfDiversificationPractice
       - farmerType
     serviceDeliveryField:
       - cooperative
