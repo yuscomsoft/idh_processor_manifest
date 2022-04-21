@@ -133,7 +133,6 @@ fieldLevelAssessment:
     - trainingSection-climaticInformationServices
     - trainingSection-diversificationStrategies
     - trainingSection-landAcquisitionProcesses
-    - trainingSection-newFarmersTrainedOnKeySubjectArea
     - trainingsExtension
     - contractAndAgreement-contract
     - contractAndAgreement-farmersOutputProduced
@@ -168,6 +167,7 @@ fieldLevelAssessment:
     - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-sustainableLandManagementPractices
     - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-communityParticipationinNaturalResouresManagement
     - adoptionOfTechnology-adoptionOfDiversificationPractice
+    - adoptionOfTechnology-assessToParentLivestockOrSeedling
     - adoptionOfTechnology-numberOfLandUsed
     - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Male
     - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Female
@@ -358,6 +358,7 @@ fieldLevelAssessment:
       - adoptionOfTechnology-environmentalSustainablePracticetrainingTopics-communityParticipationinNaturalResouresManagement
       - adoptionOfTechnology-numberOfLandUsed
       - adoptionOfTechnology-adoptionOfDiversificationPractice
+      - adoptionOfTechnology-assessToParentLivestockOrSeedling
       - farmerType
     serviceDeliveryField:
       - cooperative
