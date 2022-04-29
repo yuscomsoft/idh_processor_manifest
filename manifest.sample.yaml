@@ -440,6 +440,7 @@ fieldLevelAssessment:
       - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-PostHarvestHandling
       - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-InternationalMarketrequirement
     producersCOOPCompany:
+      - cooperative
       - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Male
       - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Female
       - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Youth
