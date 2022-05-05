@@ -169,12 +169,14 @@ fieldLevelAssessment:
     - adoptionOfTechnology-adoptionOfDiversificationPractice
     - adoptionOfTechnology-assessToParentLivestockOrSeedling
     - adoptionOfTechnology-numberOfLandUsed
-    - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Male
-    - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Female
-    - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Youth
-    - AccesstoInputsandImprovedYields-framersReached-Male
-    - AccesstoInputsandImprovedYields-framersReached-Female
-    - AccesstoInputsandImprovedYields-framersReached-Youth
+    - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-NumberOfFarmersInTheProjectAdult-Male
+    - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-NumberOfFarmersInTheProjectAdult-Female
+    - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-NumberOfFarmersInTheProjectYouth-Male
+    - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-NumberOfFarmersInTheProjectYouth-Female
+    - AccesstoInputsandImprovedYields-FramersReached-FramersReachedAdult-Male
+    - AccesstoInputsandImprovedYields-FramersReached-FramersReachedAdult-Female
+    - AccesstoInputsandImprovedYields-FramersReached-FramersReachedYouth-Male
+    - AccesstoInputsandImprovedYields-FramersReached-FramersReachedYouth-Female
     - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-Male
     - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-Female
     - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-volumeOfSeed
@@ -183,9 +185,10 @@ fieldLevelAssessment:
     - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-volumeOfAgrochemical-LITRES
     - AccesstoInputsandImprovedYields-numberOfDemostrationFarms
     - AccesstoInputsandImprovedYields-numberOfFarmersReached
-    - AccesstoInputsandImprovedYields-numberOfFarmersTrained-Male
-    - AccesstoInputsandImprovedYields-numberOfFarmersTrained-Female
-    - AccesstoInputsandImprovedYields-numberOfFarmersTrained-Youth
+    - AccesstoInputsandImprovedYields-numberOfFarmersTrained-numberOfFarmersTrainedAdult-Male
+    - AccesstoInputsandImprovedYields-numberOfFarmersTrained-numberOfFarmersTrainedAdult-Female
+    - AccesstoInputsandImprovedYields-numberOfFarmersTrained-numberOfFarmersTrainedYouth-Male
+    - AccesstoInputsandImprovedYields-numberOfFarmersTrained-numberOfFarmersTrainedYouth-Female
     - AccesstoInputsandImprovedYields-numbersTrainedBySubject-numberOnGAP
     - AccesstoInputsandImprovedYields-numbersTrainedBySubject-numberOnMYCOOP
     - AccesstoInputsandImprovedYields-numbersTrainedBySubject-numberOnFemaleLeadership
@@ -206,18 +209,22 @@ fieldLevelAssessment:
     - improvingSourceing-farmersSupplyingGradeOneMaize-Female
     - improvingSourceing-averageNetIncomesOfCooperatives
     - improvingSourceing-averagePricePaidToFarmers
-    - employmentOpportunities-permanentEmploymentCOOP-Male
-    - employmentOpportunities-permanentEmploymentCOOP-Female
-    - employmentOpportunities-permanentEmploymentCOOP-Youth
-    - employmentOpportunities-casualEmploymentCOOP-Male
-    - employmentOpportunities-casualEmploymentCOOP-Female
-    - employmentOpportunities-casualEmploymentCOOP-Youth
-    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-Male
-    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-Female
-    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-Youth
-    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Male
-    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Female
-    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Youth
+    - employmentOpportunities-permanentEmploymentCOOP-permanentEmploymentCOOPAdult-Male
+    - employmentOpportunities-permanentEmploymentCOOP-permanentEmploymentCOOPAdult-Female
+    - employmentOpportunities-permanentEmploymentCOOP-permanentEmploymentCOOPYouth-Male
+    - employmentOpportunities-permanentEmploymentCOOP-permanentEmploymentCOOPYouth-Female
+    - employmentOpportunities-temporaryEmploymentCOOP-temporaryEmploymentCOOPAdult-Male
+    - employmentOpportunities-temporaryEmploymentCOOP-temporaryEmploymentCOOPAdult-Female
+    - employmentOpportunities-temporaryEmploymentCOOP-temporaryEmploymentCOOPYouth-Male
+    - employmentOpportunities-temporaryEmploymentCOOP-temporaryEmploymentCOOPYouth-Female
+    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-AdultFarmersTrained-Male
+    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-AdultFarmersTrained-Female
+    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-YouthFarmersTrained-Male
+    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-YouthFarmersTrained-Female
+    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Adult-Male
+    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Adult-Female
+    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Youth-Male
+    - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Youth-Female
     - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-GoodAgronomicpractices
     - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-MyCoop
     - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-RecordKeeping
@@ -228,10 +235,14 @@ fieldLevelAssessment:
     - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-GlobalGAP
     - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-PostHarvestHandling
     - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-InternationalMarketrequirement
-    - NumberOfProducers-male
-    - NumberOfProducers-female
-    - NumberOfProducersLinked-male
-    - NumberOfProducersLinked-female
+    - NumberOfProducers-NumberOfProducersAdult-male
+    - NumberOfProducers-NumberOfProducersAdult-female
+    - NumberOfProducers-NumberOfProducersYouth-male
+    - NumberOfProducers-NumberOfProducersYouth-female
+    - NumberOfProducersLinked-NumberOfProducersLinkedAdult-male
+    - NumberOfProducersLinked-NumberOfProducersLinkedAdult-female
+    - NumberOfProducersLinked-NumberOfProducersLinkedYouth-male
+    - NumberOfProducersLinked-NumberOfProducersLinkedYouth-female
     - CIT-numberOfCooperativesReceivingTrainingFromCooperativeCoaches
     - CIT-numberOfCooperativesRegisteredAsAgroDealers
   baseKpi:
@@ -252,12 +263,14 @@ fieldLevelAssessment:
       - CIT-numberOfCooperativesRegisteredAsAgroDealers
     employmentOpportunitiesCOOPCompany:
       - cooperative
-      - employmentOpportunities-permanentEmploymentCOOP-Male
-      - employmentOpportunities-permanentEmploymentCOOP-Female
-      - employmentOpportunities-permanentEmploymentCOOP-Youth
-      - employmentOpportunities-casualEmploymentCOOP-Male
-      - employmentOpportunities-casualEmploymentCOOP-Female
-      - employmentOpportunities-casualEmploymentCOOP-Youth
+      - employmentOpportunities-permanentEmploymentCOOP-permanentEmploymentCOOPAdult-Male
+      - employmentOpportunities-permanentEmploymentCOOP-permanentEmploymentCOOPAdult-Female
+      - employmentOpportunities-permanentEmploymentCOOP-permanentEmploymentCOOPYouth-Male
+      - employmentOpportunities-permanentEmploymentCOOP-permanentEmploymentCOOPYouth-Female
+      - employmentOpportunities-temporaryEmploymentCOOP-temporaryEmploymentCOOPAdult-Male
+      - employmentOpportunities-temporaryEmploymentCOOP-temporaryEmploymentCOOPAdult-Female
+      - employmentOpportunities-temporaryEmploymentCOOP-temporaryEmploymentCOOPYouth-Male
+      - employmentOpportunities-temporaryEmploymentCOOP-temporaryEmploymentCOOPYouth-Female
     accessToFinanceField:
       - accesstoFinance-accessToFinance
       - accesstoFinance-newAccessToFinance
@@ -376,11 +389,14 @@ fieldLevelAssessment:
       - farmerType
     accessToInputsAndImprovedYieldsCOOPCompany:
       - cooperative
-      - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Male
-      - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Female
-      - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Youth
-      - AccesstoInputsandImprovedYields-framersReached-Male
-      - AccesstoInputsandImprovedYields-framersReached-Female
+      - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-NumberOfFarmersInTheProjectAdult-Male
+      - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-NumberOfFarmersInTheProjectAdult-Female
+      - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-NumberOfFarmersInTheProjectYouth-Male
+      - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-NumberOfFarmersInTheProjectYouth-Female
+      - AccesstoInputsandImprovedYields-FramersReached-FramersReachedAdult-Male
+      - AccesstoInputsandImprovedYields-FramersReached-FramersReachedAdult-Female
+      - AccesstoInputsandImprovedYields-FramersReached-FramersReachedYouth-Male
+      - AccesstoInputsandImprovedYields-FramersReached-FramersReachedYouth-Female
       - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-Male
       - AccesstoInputsandImprovedYields-farmersAccessingImprovedInputs-Female
       - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-volumeOfSeed
@@ -389,9 +405,10 @@ fieldLevelAssessment:
       - AccesstoInputsandImprovedYields-VolumesOfInputsSoldToFarmers-volumeOfAgrochemical-LITRES
       - AccesstoInputsandImprovedYields-numberOfDemostrationFarms
       - AccesstoInputsandImprovedYields-numberOfFarmersReached
-      - AccesstoInputsandImprovedYields-numberOfFarmersTrained-Male
-      - AccesstoInputsandImprovedYields-numberOfFarmersTrained-Female
-      - AccesstoInputsandImprovedYields-numberOfFarmersTrained-Youth
+      - AccesstoInputsandImprovedYields-numberOfFarmersTrained-numberOfFarmersTrainedAdult-Male
+      - AccesstoInputsandImprovedYields-numberOfFarmersTrained-numberOfFarmersTrainedAdult-Female
+      - AccesstoInputsandImprovedYields-numberOfFarmersTrained-numberOfFarmersTrainedYouth-Male
+      - AccesstoInputsandImprovedYields-numberOfFarmersTrained-numberOfFarmersTrainedYouth-Female
       - AccesstoInputsandImprovedYields-numbersTrainedBySubject-numberOnGAP
       - AccesstoInputsandImprovedYields-numbersTrainedBySubject-numberOnMYCOOP
       - AccesstoInputsandImprovedYields-numbersTrainedBySubject-numberOnFemaleLeadership
@@ -423,12 +440,14 @@ fieldLevelAssessment:
       - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Youth
     numberOfFarmersTrainedCOOPCompany:
       - cooperative
-      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-Male
-      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-Female
-      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-Youth
-      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Male
-      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Female
-      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Youth
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-AdultFarmersTrained-Male
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-AdultFarmersTrained-Female
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-YouthFarmersTrained-Male
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-YouthFarmersTrained-Female
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Adult-Male
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Adult-Female
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Youth-Male
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Youth-Female
       - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-GoodAgronomicpractices
       - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-MyCoop
       - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-RecordKeeping
@@ -441,12 +460,14 @@ fieldLevelAssessment:
       - IncreasedAdoptionOfGoodAgriculturalPractices-farmersTrainedTopics-InternationalMarketrequirement
     producersCOOPCompany:
       - cooperative
-      - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Male
-      - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Female
-      - AccesstoInputsandImprovedYields-NumberOfFarmersInTheProject-Youth
-      - AccesstoInputsandImprovedYields-framersReached-Male
-      - AccesstoInputsandImprovedYields-framersReached-Female
-      - AccesstoInputsandImprovedYields-framersReached-Youth
+      - NumberOfProducers-NumberOfProducersAdult-male
+      - NumberOfProducers-NumberOfProducersAdult-female
+      - NumberOfProducers-NumberOfProducersYouth-male
+      - NumberOfProducers-NumberOfProducersYouth-female
+      - NumberOfProducersLinked-NumberOfProducersLinkedAdult-male
+      - NumberOfProducersLinked-NumberOfProducersLinkedAdult-female
+      - NumberOfProducersLinked-NumberOfProducersLinkedYouth-male
+      - NumberOfProducersLinked-NumberOfProducersLinkedYouth-female
 companyLevelAssessment:
   headers:
     - start
