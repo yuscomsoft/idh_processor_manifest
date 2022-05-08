@@ -330,7 +330,6 @@ fieldLevelAssessment:
       - trainingSection-climaticInformationServices
       - trainingSection-diversificationStrategies
       - trainingSection-landAcquisitionProcesses
-      - trainingSection-newFarmersTrainedOnKeySubjectArea
       - farmerType
     trainingExtensionField:
       - trainingsExtension
@@ -435,9 +434,10 @@ fieldLevelAssessment:
       - improvingSourceing-averagePricePaidToFarmers
     adoptionOfGoodAgriculturalPracticesCOOPCompany:
       - cooperative
-      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Male
-      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Female
-      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Youth
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Adult-Male
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Adult-Female
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Youth-Male
+      - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersAdoptedGAP-Youth-Female
     numberOfFarmersTrainedCOOPCompany:
       - cooperative
       - IncreasedAdoptionOfGoodAgriculturalPractices-numberOfFarmersTrained-AdultFarmersTrained-Male
