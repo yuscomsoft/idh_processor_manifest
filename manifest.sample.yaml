@@ -587,6 +587,104 @@ companyLevelAssessment:
     - IncreasedLong-termBuyingCommitments-smeCertification-SMETA
     - IncreasedLong-termBuyingCommitments-smeCertification-ETI
     - IncreasedLong-termBuyingCommitments-smeCertification-FAIRTRADE
+    - NumberOfProducers-AdultNumberOfProducers-Male
+    - NumberOfProducers-AdultNumberOfProducers-Female
+    - NumberOfProducers-YouthNumberOfProducers-Male
+    - NumberOfProducers-YouthNumberOfProducers-Female
+    - NumberOfProducersLinked-NumberOfProducersLinkedAdult-Male
+    - NumberOfProducersLinked-NumberOfProducersLinkedAdult-Female
+    - NumberOfProducersLinked-NumberOfProducersLinkedYouth-Male
+    - NumberOfProducersLinked-NumberOfProducersLinkedYouth-Female
+    - JobCreation-PermanentJobs-PermanentJobsAdult-Male
+    - JobCreation-PermanentJobs-PermanentJobsAdult-Female
+    - JobCreation-PermanentJobs-PermanentJobsYouth-Male
+    - JobCreation-PermanentJobs-PermanentJobsYouth-Female
+    - JobCreation-TemporaryJobs-TemporaryJobsAdult-Male
+    - JobCreation-TemporaryJobs-TemporaryJobsAdult-Female
+    - JobCreation-TemporaryJobs-TemporaryJobsYouth-Male
+    - JobCreation-TemporaryJobs-TemporaryJobsYouth-Female
+    - NumberOfYouthInDignifiedAndFulfillingWork
+    - Employment-Employed-AdultEmployedOnFarm-Male
+    - Employment-Employed-AdultEmployedOnFarm-Female
+    - Employment-Employed-YouthEmployedOnFarm-Male
+    - Employment-Employed-YouthEmployedOnFarm-Female
+    - Employment-Employed-AdultEmployedBySME-Male
+    - Employment-Employed-AdultEmployedBySME-Female
+    - Employment-Employed-YouthEmployedBySME-Male
+    - Employment-Employed-YouthEmployedBySME-Female
+    - Employment-Self-Employed-AdultSelf-EmployedOnFarm-Male
+    - Employment-Self-Employed-AdultSelf-EmployedOnFarm-Female
+    - Employment-Self-Employed-YouthSelf-EmployedOnFarm-Male
+    - Employment-Self-Employed-YouthSelf-EmployedOnFarm-Female
+    - Employment-Self-Employed-AdultSelf-EmployedAtSME-Male
+    - Employment-Self-Employed-AdultSelf-EmployedAtSME-Female
+    - Employment-Self-Employed-YouthSelf-EmployedAtSME-Male
+    - Employment-Self-Employed-YouthSelf-EmployedAtSME-Female
+    - FarmersParticipatingInFarmersAssociationOrCooperatives-Adult-Male
+    - FarmersParticipatingInFarmersAssociationOrCooperatives-Adult-Female
+    - FarmersParticipatingInFarmersAssociationOrCooperatives-Youth-Male
+    - FarmersParticipatingInFarmersAssociationOrCooperatives-Youth-Female
+    - AccessToFinance-ValueOfLoan-Male
+    - AccessToFinance-ValueOfLoan-Female
+    - AccessToFinance-FarmersAccessingLoans-FarmersAccessingLoansAdult-Male
+    - AccessToFinance-FarmersAccessingLoans-FarmersAccessingLoansAdult-Female
+    - AccessToFinance-FarmersAccessingLoans-FarmersAccessingLoansYouth-Male
+    - AccessToFinance-FarmersAccessingLoans-FarmersAccessingLoansYouth-Female
+    - AccessToFinance-AverageSizeOfLoanProvided-Male
+    - AccessToFinance-AverageSizeOfLoanProvided-Female
+    - AccessToFinance-LocalFinancialInstitutions-NumberOfLocalFinancialInstitutions
+    - CapacitiyBuilding-ParticipatedCapacitiyBuilding-Male
+    - CapacitiyBuilding-ParticipatedCapacitiyBuilding-Female
+    - CapacitiyBuilding-CompletedCapacityBuilding-Male
+    - CapacitiyBuilding-CompletedCapacityBuilding-Female
+    - AccessToInputsServicesAndTechnology-SHFs-SHFsAdult-Male
+    - AccessToInputsServicesAndTechnology-SHFs-SHFsAdult-Female
+    - AccessToInputsServicesAndTechnology-SHFs-SHFsYouth-Male
+    - AccessToInputsServicesAndTechnology-SHFs-SHFsYouth-female
+    - AccessToInputsServicesAndTechnology-DemonstrationPlots
+    - AccessToInputsServicesAndTechnology-ImprovedAgriculturalPracticesAndBusinesses-IAPBAdult-Male
+    - AccessToInputsServicesAndTechnology-ImprovedAgriculturalPracticesAndBusinesses-IAPBAdult-female
+    - AccessToInputsServicesAndTechnology-ImprovedAgriculturalPracticesAndBusinesses-IAPBYouth-Male
+    - AccessToInputsServicesAndTechnology-ImprovedAgriculturalPracticesAndBusinesses-IAPBYouth-female
+    - AccessToInputsServicesAndTechnology-CompletedImprovedAgriculturalPracticesAndBusinesses-CIAPBAdult-Male
+    - AccessToInputsServicesAndTechnology-CompletedImprovedAgriculturalPracticesAndBusinesses-CIAPBAdult-female
+    - AccessToInputsServicesAndTechnology-CompletedImprovedAgriculturalPracticesAndBusinesses-CIAPBYouth-Male
+    - AccessToInputsServicesAndTechnology-CompletedImprovedAgriculturalPracticesAndBusinesses-CIAPBYouth-female
+    - AccessToInputsServicesAndTechnology-EnvironmentalSustainablePractice-AdultEnvironmentalSustainablePractice-Male
+    - AccessToInputsServicesAndTechnology-EnvironmentalSustainablePractice-AdultEnvironmentalSustainablePractice-Female
+    - AccessToInputsServicesAndTechnology-EnvironmentalSustainablePractice-YouthEnvironmentalSustainablePractice-Male
+    - AccessToInputsServicesAndTechnology-EnvironmentalSustainablePractice-YouthEnvironmentalSustainablePractice-Female
+    - AccessToInputsServicesAndTechnology-GroupDynamicsAndConflictManagement-AdultgroupDynamicsAndConflictManagement-Male
+    - AccessToInputsServicesAndTechnology-GroupDynamicsAndConflictManagement-AdultgroupDynamicsAndConflictManagement-Female
+    - AccessToInputsServicesAndTechnology-GroupDynamicsAndConflictManagement-YouthgroupDynamicsAndConflictManagement-Male
+    - AccessToInputsServicesAndTechnology-GroupDynamicsAndConflictManagement-YouthgroupDynamicsAndConflictManagement-Female
+    - AccessToInputsServicesAndTechnology-GoodBusinessAndMarketingPractices-AdultGoodBusinessAndMarketingPractices-Male
+    - AccessToInputsServicesAndTechnology-GoodBusinessAndMarketingPractices-AdultGoodBusinessAndMarketingPractices-Female
+    - AccessToInputsServicesAndTechnology-GoodBusinessAndMarketingPractices-YouthGoodBusinessAndMarketingPractices-Male
+    - AccessToInputsServicesAndTechnology-GoodBusinessAndMarketingPractices-YouthGoodBusinessAndMarketingPractices-Female
+    - AccessToInputsServicesAndTechnology-PostHarvestHandlingAndQualityRequirements-AdultPostHarvestHandlingAndQualityRequirements-Male
+    - AccessToInputsServicesAndTechnology-PostHarvestHandlingAndQualityRequirements-AdultPostHarvestHandlingAndQualityRequirements-Female
+    - AccessToInputsServicesAndTechnology-PostHarvestHandlingAndQualityRequirements-YouthPostHarvestHandlingAndQualityRequirements-Male
+    - AccessToInputsServicesAndTechnology-PostHarvestHandlingAndQualityRequirements-YouthPostHarvestHandlingAndQualityRequirements-Female
+    - AdoptionOfTechnology-AdoptedGPB-AdoptedGPBAdult-Male
+    - AdoptionOfTechnology-AdoptedGPB-AdoptedGPBAdult-Female
+    - AdoptionOfTechnology-AdoptedGPB-AdoptedGPBYouth-Male
+    - AdoptionOfTechnology-AdoptedGPB-AdoptedGPBYouth-Female
+    - AdoptionOfTechnology-ComplyWithGPB-ComplyWithGPBAdult-Male
+    - AdoptionOfTechnology-ComplyWithGPB-ComplyWithGPBAdult-Female
+    - AdoptionOfTechnology-ComplyWithGPB-ComplyWithGPBYouth-Male
+    - AdoptionOfTechnology-ComplyWithGPB-ComplyWithGPBYouth-Female
+    - AdoptionOfTechnology-PostHarvestHandlingTraining-AdultPostHarvestHandlingTraining-Male
+    - AdoptionOfTechnology-PostHarvestHandlingTraining-AdultPostHarvestHandlingTraining-Female
+    - AdoptionOfTechnology-PostHarvestHandlingTraining-YouthPostHarvestHandlingTraining-Male
+    - AdoptionOfTechnology-PostHarvestHandlingTraining-YouthPostHarvestHandlingTraining-Female
+    - AdoptionOfTechnology-EnvironmentalSustainablePracticetraining-AdultEnvironmentalSustainablePracticetraining-Male
+    - AdoptionOfTechnology-EnvironmentalSustainablePracticetraining-AdultEnvironmentalSustainablePracticetraining-Female
+    - AdoptionOfTechnology-EnvironmentalSustainablePracticetraining-YouthEnvironmentalSustainablePracticetraining-Male
+    - AdoptionOfTechnology-EnvironmentalSustainablePracticetraining-YouthEnvironmentalSustainablePracticetraining-Female
+    - LandUnderImprovedAgriculturalPractices
+    - AccessToAffordableFinance-AmountOfCo-financing
+    - ProduceEvaluationSection-NumberOfProduce
   baseKpi:
     - assessmentPeriod-year
     - assessmentPeriod-quarter
@@ -594,6 +692,7 @@ companyLevelAssessment:
     - produce
     - source
     - country
+    - KEY
   kpiOutput:
     trainingOfWorkersSMECompany:
       - trainingOfWorkers-pack-house
@@ -730,4 +829,116 @@ companyLevelAssessment:
       - IncreasedLong-termBuyingCommitments-smeCertification-FAIRTRADE
     IncreaseInSalesRevenueSMECompany:
       - IncreaseInSalesRevenue
+    jobCreationMCFCompany:
+      - JobCreation-PermanentJobs-PermanentJobsAdult-Male
+      - JobCreation-PermanentJobs-PermanentJobsAdult-Female
+      - JobCreation-PermanentJobs-PermanentJobsYouth-Male
+      - JobCreation-PermanentJobs-PermanentJobsYouth-Female
+      - JobCreation-TemporaryJobs-TemporaryJobsAdult-Male
+      - JobCreation-TemporaryJobs-TemporaryJobsAdult-Female
+      - JobCreation-TemporaryJobs-TemporaryJobsYouth-Male
+      - JobCreation-TemporaryJobs-TemporaryJobsYouth-Female
+    accessToAffordableFinanceCompany:
+      - AccessToAffordableFinance-AmountOfCo-financing
+    adoptionOfTechnologyCompany:
+      - AdoptionOfTechnology-AdoptedGPB-AdoptedGPBAdult-Male
+      - AdoptionOfTechnology-AdoptedGPB-AdoptedGPBAdult-Female
+      - AdoptionOfTechnology-AdoptedGPB-AdoptedGPBYouth-Male
+      - AdoptionOfTechnology-AdoptedGPB-AdoptedGPBYouth-Female
+      - AdoptionOfTechnology-ComplyWithGPB-ComplyWithGPBAdult-Male
+      - AdoptionOfTechnology-ComplyWithGPB-ComplyWithGPBAdult-Female
+      - AdoptionOfTechnology-ComplyWithGPB-ComplyWithGPBYouth-Male
+      - AdoptionOfTechnology-ComplyWithGPB-ComplyWithGPBYouth-Female
+      - AdoptionOfTechnology-PostHarvestHandlingTraining-AdultPostHarvestHandlingTraining-Male
+      - AdoptionOfTechnology-PostHarvestHandlingTraining-AdultPostHarvestHandlingTraining-Female
+      - AdoptionOfTechnology-PostHarvestHandlingTraining-YouthPostHarvestHandlingTraining-Male
+      - AdoptionOfTechnology-PostHarvestHandlingTraining-YouthPostHarvestHandlingTraining-Female
+      - AdoptionOfTechnology-EnvironmentalSustainablePracticetraining-AdultEnvironmentalSustainablePracticetraining-Male
+      - AdoptionOfTechnology-EnvironmentalSustainablePracticetraining-AdultEnvironmentalSustainablePracticetraining-Female
+      - AdoptionOfTechnology-EnvironmentalSustainablePracticetraining-YouthEnvironmentalSustainablePracticetraining-Male
+      - AdoptionOfTechnology-EnvironmentalSustainablePracticetraining-YouthEnvironmentalSustainablePracticetraining-Female
+    improvedAgriculturalPracticesAndBusinessesCompany:
+      - AccessToInputsServicesAndTechnology-ImprovedAgriculturalPracticesAndBusinesses-IAPBAdult-Male
+      - AccessToInputsServicesAndTechnology-ImprovedAgriculturalPracticesAndBusinesses-IAPBAdult-female
+      - AccessToInputsServicesAndTechnology-ImprovedAgriculturalPracticesAndBusinesses-IAPBYouth-Male
+      - AccessToInputsServicesAndTechnology-ImprovedAgriculturalPracticesAndBusinesses-IAPBYouth-female
+      - AccessToInputsServicesAndTechnology-CompletedImprovedAgriculturalPracticesAndBusinesses-CIAPBAdult-Male
+      - AccessToInputsServicesAndTechnology-CompletedImprovedAgriculturalPracticesAndBusinesses-CIAPBAdult-female
+      - AccessToInputsServicesAndTechnology-CompletedImprovedAgriculturalPracticesAndBusinesses-CIAPBYouth-Male
+      - AccessToInputsServicesAndTechnology-CompletedImprovedAgriculturalPracticesAndBusinesses-CIAPBYouth-female
+      - AccessToInputsServicesAndTechnology-EnvironmentalSustainablePractice-AdultEnvironmentalSustainablePractice-Male
+      - AccessToInputsServicesAndTechnology-EnvironmentalSustainablePractice-AdultEnvironmentalSustainablePractice-Female
+      - AccessToInputsServicesAndTechnology-EnvironmentalSustainablePractice-YouthEnvironmentalSustainablePractice-Male
+      - AccessToInputsServicesAndTechnology-EnvironmentalSustainablePractice-YouthEnvironmentalSustainablePractice-Female
+      - AccessToInputsServicesAndTechnology-GroupDynamicsAndConflictManagement-AdultgroupDynamicsAndConflictManagement-Male
+      - AccessToInputsServicesAndTechnology-GroupDynamicsAndConflictManagement-AdultgroupDynamicsAndConflictManagement-Female
+      - AccessToInputsServicesAndTechnology-GroupDynamicsAndConflictManagement-YouthgroupDynamicsAndConflictManagement-Male
+      - AccessToInputsServicesAndTechnology-GroupDynamicsAndConflictManagement-YouthgroupDynamicsAndConflictManagement-Female
+      - AccessToInputsServicesAndTechnology-GoodBusinessAndMarketingPractices-AdultGoodBusinessAndMarketingPractices-Male
+      - AccessToInputsServicesAndTechnology-GoodBusinessAndMarketingPractices-AdultGoodBusinessAndMarketingPractices-Female
+      - AccessToInputsServicesAndTechnology-GoodBusinessAndMarketingPractices-YouthGoodBusinessAndMarketingPractices-Male
+      - AccessToInputsServicesAndTechnology-GoodBusinessAndMarketingPractices-YouthGoodBusinessAndMarketingPractices-Female
+      - AccessToInputsServicesAndTechnology-PostHarvestHandlingAndQualityRequirements-AdultPostHarvestHandlingAndQualityRequirements-Male
+      - AccessToInputsServicesAndTechnology-PostHarvestHandlingAndQualityRequirements-AdultPostHarvestHandlingAndQualityRequirements-Female
+      - AccessToInputsServicesAndTechnology-PostHarvestHandlingAndQualityRequirements-YouthPostHarvestHandlingAndQualityRequirements-Male
+      - AccessToInputsServicesAndTechnology-PostHarvestHandlingAndQualityRequirements-YouthPostHarvestHandlingAndQualityRequirements-Female
+    capacitiyBuildingCompany:
+      - CapacitiyBuilding-ParticipatedCapacitiyBuilding-Male
+      - CapacitiyBuilding-ParticipatedCapacitiyBuilding-Female
+      - CapacitiyBuilding-CompletedCapacityBuilding-Male
+      - CapacitiyBuilding-CompletedCapacityBuilding-Female
+    accessToInputsServicesAndTechnologyCompany:
+      - AccessToInputsServicesAndTechnology-SHFs-SHFsAdult-Male
+      - AccessToInputsServicesAndTechnology-SHFs-SHFsAdult-Female
+      - AccessToInputsServicesAndTechnology-SHFs-SHFsYouth-Male
+      - AccessToInputsServicesAndTechnology-SHFs-SHFsYouth-female
+    localFinancialInstitutionsCompany:
+      - AccessToFinance-LocalFinancialInstitutions-NumberOfLocalFinancialInstitutions
+    farmersParticipatingInFarmersAssociationOrCooperativeCompany:
+      - FarmersParticipatingInFarmersAssociationOrCooperatives-Adult-Male
+      - FarmersParticipatingInFarmersAssociationOrCooperatives-Adult-Female
+      - FarmersParticipatingInFarmersAssociationOrCooperatives-Youth-Male
+      - FarmersParticipatingInFarmersAssociationOrCooperatives-Youth-Female
+    youthInDignifiedAndFulfillingWorkCompany:
+      - NumberOfYouthInDignifiedAndFulfillingWork
+    employmentCompay:
+      - Employment-Employed-AdultEmployedOnFarm-Male
+      - Employment-Employed-AdultEmployedOnFarm-Female
+      - Employment-Employed-YouthEmployedOnFarm-Male
+      - Employment-Employed-YouthEmployedOnFarm-Female
+      - Employment-Employed-AdultEmployedBySME-Male
+      - Employment-Employed-AdultEmployedBySME-Female
+      - Employment-Employed-YouthEmployedBySME-Male
+      - Employment-Employed-YouthEmployedBySME-Female
+      - Employment-Self-Employed-AdultSelf-EmployedOnFarm-Male
+      - Employment-Self-Employed-AdultSelf-EmployedOnFarm-Female
+      - Employment-Self-Employed-YouthSelf-EmployedOnFarm-Male
+      - Employment-Self-Employed-YouthSelf-EmployedOnFarm-Female
+      - Employment-Self-Employed-AdultSelf-EmployedAtSME-Male
+      - Employment-Self-Employed-AdultSelf-EmployedAtSME-Female
+      - Employment-Self-Employed-YouthSelf-EmployedAtSME-Male
+      - Employment-Self-Employed-YouthSelf-EmployedAtSME-Female
+    accessToFinanceMCFCompany:
+      - AccessToFinance-ValueOfLoan-Male
+      - AccessToFinance-ValueOfLoan-Female
+      - AccessToFinance-FarmersAccessingLoans-FarmersAccessingLoansAdult-Male
+      - AccessToFinance-FarmersAccessingLoans-FarmersAccessingLoansAdult-Female
+      - AccessToFinance-FarmersAccessingLoans-FarmersAccessingLoansYouth-Male
+      - AccessToFinance-FarmersAccessingLoans-FarmersAccessingLoansYouth-Female
+      - AccessToFinance-AverageSizeOfLoanProvided-Male
+      - AccessToFinance-AverageSizeOfLoanProvided-Female
+    demonstrationPlotsMCFCompany:
+      - AccessToInputsServicesAndTechnology-DemonstrationPlots
+    offtakeMCFCompany:
+      - ProduceEvaluationSection-NumberOfProduce
+    producersMCFCompany:
+      - NumberOfProducers-AdultNumberOfProducers-Male
+      - NumberOfProducers-AdultNumberOfProducers-Female
+      - NumberOfProducers-YouthNumberOfProducers-Male
+      - NumberOfProducers-YouthNumberOfProducers-Female
+      - NumberOfProducersLinked-NumberOfProducersLinkedAdult-Male
+      - NumberOfProducersLinked-NumberOfProducersLinkedAdult-Female
+      - NumberOfProducersLinked-NumberOfProducersLinkedYouth-Male
+      - NumberOfProducersLinked-NumberOfProducersLinkedYouth-Female
+
 
