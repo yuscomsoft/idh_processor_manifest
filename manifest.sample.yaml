@@ -595,14 +595,38 @@ companyLevelAssessment:
     - NumberOfProducersLinked-NumberOfProducersLinkedAdult-Female
     - NumberOfProducersLinked-NumberOfProducersLinkedYouth-Male
     - NumberOfProducersLinked-NumberOfProducersLinkedYouth-Female
-    - JobCreation-PermanentJobs-PermanentJobsAdult-Male
-    - JobCreation-PermanentJobs-PermanentJobsAdult-Female
-    - JobCreation-PermanentJobs-PermanentJobsYouth-Male
-    - JobCreation-PermanentJobs-PermanentJobsYouth-Female
-    - JobCreation-TemporaryJobs-TemporaryJobsAdult-Male
-    - JobCreation-TemporaryJobs-TemporaryJobsAdult-Female
-    - JobCreation-TemporaryJobs-TemporaryJobsYouth-Male
-    - JobCreation-TemporaryJobs-TemporaryJobsYouth-Female
+    - JobCreation-PermanentJobsOFE-PermanentJobsAdultOFE-Male
+    - JobCreation-PermanentJobsOFE-PermanentJobsAdultOFE-Female
+    - JobCreation-PermanentJobsOFE-PermanentJobsYouthOFE-Male
+    - JobCreation-PermanentJobsOFE-PermanentJobsYouthOFE-Female
+    - JobCreation-PermanentJobsBySME-PermanentJobsAdultBySME-Male
+    - JobCreation-PermanentJobsBySME-PermanentJobsAdultBySME-Female
+    - JobCreation-PermanentJobsBySME-PermanentJobsYouthBySME-Male
+    - JobCreation-PermanentJobsBySME-PermanentJobsYouthBySME-Female
+    - JobCreation-PermanentJobsOFSE-PermanentJobsAdultOFSE-Male
+    - JobCreation-PermanentJobsOFSE-PermanentJobsAdultOFSE-Female
+    - JobCreation-PermanentJobsOFSE-PermanentJobsYouthOFSE-Male
+    - JobCreation-PermanentJobsOFSE-PermanentJobsYouthOFSE-Female
+    - JobCreation-PermanentJobsALSE-PermanentJobsAdultALSE-Male
+    - JobCreation-PermanentJobsALSE-PermanentJobsAdultALSE-Female
+    - JobCreation-PermanentJobsALSE-PermanentJobsYouthALSE-Male
+    - JobCreation-PermanentJobsALSE-PermanentJobsYouthALSE-Female
+    - JobCreation-TemporaryJobsOFE-TemporaryJobsAdultOFE-Male
+    - JobCreation-TemporaryJobsOFE-TemporaryJobsAdultOFE-Female
+    - JobCreation-TemporaryJobsOFE-TemporaryJobsYouthOFE-Male
+    - JobCreation-TemporaryJobsOFE-TemporaryJobsYouthOFE-Female
+    - JobCreation-TemporaryJobsbySME-TemporaryJobsAdultbySME-Male
+    - JobCreation-TemporaryJobsbySME-TemporaryJobsAdultbySME-Female
+    - JobCreation-TemporaryJobsbySME-TemporaryJobsYouthbySME-Male
+    - JobCreation-TemporaryJobsbySME-TemporaryJobsYouthbySME-Female
+    - JobCreation-TemporaryJobsOFSE-TemporaryJobsAdultOFSE-Male
+    - JobCreation-TemporaryJobsOFSE-TemporaryJobsAdultOFSE-Female
+    - JobCreation-TemporaryJobsOFSE-TemporaryJobsYouthOFSE-Male
+    - JobCreation-TemporaryJobsOFSE-TemporaryJobsYouthOFSE-Female
+    - JobCreation-TemporaryJobsAlSE-TemporaryJobsAdultAlSE-Male
+    - JobCreation-TemporaryJobsAlSE-TemporaryJobsAdultAlSE-Female
+    - JobCreation-TemporaryJobsAlSE-TemporaryJobsYouthAlSE-Male
+    - JobCreation-TemporaryJobsAlSE-TemporaryJobsYouthAlSE-Female
     - NumberOfYouthInDignifiedAndFulfillingWork
     - Employment-Employed-AdultEmployedOnFarm-Male
     - Employment-Employed-AdultEmployedOnFarm-Female
@@ -612,14 +636,6 @@ companyLevelAssessment:
     - Employment-Employed-AdultEmployedBySME-Female
     - Employment-Employed-YouthEmployedBySME-Male
     - Employment-Employed-YouthEmployedBySME-Female
-    - Employment-Self-Employed-AdultSelf-EmployedOnFarm-Male
-    - Employment-Self-Employed-AdultSelf-EmployedOnFarm-Female
-    - Employment-Self-Employed-YouthSelf-EmployedOnFarm-Male
-    - Employment-Self-Employed-YouthSelf-EmployedOnFarm-Female
-    - Employment-Self-Employed-AdultSelf-EmployedAtSME-Male
-    - Employment-Self-Employed-AdultSelf-EmployedAtSME-Female
-    - Employment-Self-Employed-YouthSelf-EmployedAtSME-Male
-    - Employment-Self-Employed-YouthSelf-EmployedAtSME-Female
     - FarmersParticipatingInFarmersAssociationOrCooperatives-Adult-Male
     - FarmersParticipatingInFarmersAssociationOrCooperatives-Adult-Female
     - FarmersParticipatingInFarmersAssociationOrCooperatives-Youth-Male
@@ -834,14 +850,38 @@ companyLevelAssessment:
     IncreaseInSalesRevenueSMECompany:
       - IncreaseInSalesRevenue
     jobCreationMCFCompany:
-      - JobCreation-PermanentJobs-PermanentJobsAdult-Male
-      - JobCreation-PermanentJobs-PermanentJobsAdult-Female
-      - JobCreation-PermanentJobs-PermanentJobsYouth-Male
-      - JobCreation-PermanentJobs-PermanentJobsYouth-Female
-      - JobCreation-TemporaryJobs-TemporaryJobsAdult-Male
-      - JobCreation-TemporaryJobs-TemporaryJobsAdult-Female
-      - JobCreation-TemporaryJobs-TemporaryJobsYouth-Male
-      - JobCreation-TemporaryJobs-TemporaryJobsYouth-Female
+      - JobCreation-PermanentJobsOFE-PermanentJobsAdultOFE-Male
+      - JobCreation-PermanentJobsOFE-PermanentJobsAdultOFE-Female
+      - JobCreation-PermanentJobsOFE-PermanentJobsYouthOFE-Male
+      - JobCreation-PermanentJobsOFE-PermanentJobsYouthOFE-Female
+      - JobCreation-PermanentJobsBySME-PermanentJobsAdultBySME-Male
+      - JobCreation-PermanentJobsBySME-PermanentJobsAdultBySME-Female
+      - JobCreation-PermanentJobsBySME-PermanentJobsYouthBySME-Male
+      - JobCreation-PermanentJobsBySME-PermanentJobsYouthBySME-Female
+      - JobCreation-PermanentJobsOFSE-PermanentJobsAdultOFSE-Male
+      - JobCreation-PermanentJobsOFSE-PermanentJobsAdultOFSE-Female
+      - JobCreation-PermanentJobsOFSE-PermanentJobsYouthOFSE-Male
+      - JobCreation-PermanentJobsOFSE-PermanentJobsYouthOFSE-Female
+      - JobCreation-PermanentJobsALSE-PermanentJobsAdultALSE-Male
+      - JobCreation-PermanentJobsALSE-PermanentJobsAdultALSE-Female
+      - JobCreation-PermanentJobsALSE-PermanentJobsYouthALSE-Male
+      - JobCreation-PermanentJobsALSE-PermanentJobsYouthALSE-Female
+      - JobCreation-TemporaryJobsOFE-TemporaryJobsAdultOFE-Male
+      - JobCreation-TemporaryJobsOFE-TemporaryJobsAdultOFE-Female
+      - JobCreation-TemporaryJobsOFE-TemporaryJobsYouthOFE-Male
+      - JobCreation-TemporaryJobsOFE-TemporaryJobsYouthOFE-Female
+      - JobCreation-TemporaryJobsbySME-TemporaryJobsAdultbySME-Male
+      - JobCreation-TemporaryJobsbySME-TemporaryJobsAdultbySME-Female
+      - JobCreation-TemporaryJobsbySME-TemporaryJobsYouthbySME-Male
+      - JobCreation-TemporaryJobsbySME-TemporaryJobsYouthbySME-Female
+      - JobCreation-TemporaryJobsOFSE-TemporaryJobsAdultOFSE-Male
+      - JobCreation-TemporaryJobsOFSE-TemporaryJobsAdultOFSE-Female
+      - JobCreation-TemporaryJobsOFSE-TemporaryJobsYouthOFSE-Male
+      - JobCreation-TemporaryJobsOFSE-TemporaryJobsYouthOFSE-Female
+      - JobCreation-TemporaryJobsAlSE-TemporaryJobsAdultAlSE-Male
+      - JobCreation-TemporaryJobsAlSE-TemporaryJobsAdultAlSE-Female
+      - JobCreation-TemporaryJobsAlSE-TemporaryJobsYouthAlSE-Male
+      - JobCreation-TemporaryJobsAlSE-TemporaryJobsYouthAlSE-Female
     accessToAffordableFinanceCompany:
       - AccessToAffordableFinance-AmountOfCo-financing
     adoptionOfTechnologyCompany:
@@ -918,14 +958,6 @@ companyLevelAssessment:
       - Employment-Employed-AdultEmployedBySME-Female
       - Employment-Employed-YouthEmployedBySME-Male
       - Employment-Employed-YouthEmployedBySME-Female
-      - Employment-Self-Employed-AdultSelf-EmployedOnFarm-Male
-      - Employment-Self-Employed-AdultSelf-EmployedOnFarm-Female
-      - Employment-Self-Employed-YouthSelf-EmployedOnFarm-Male
-      - Employment-Self-Employed-YouthSelf-EmployedOnFarm-Female
-      - Employment-Self-Employed-AdultSelf-EmployedAtSME-Male
-      - Employment-Self-Employed-AdultSelf-EmployedAtSME-Female
-      - Employment-Self-Employed-YouthSelf-EmployedAtSME-Male
-      - Employment-Self-Employed-YouthSelf-EmployedAtSME-Female
     accessToFinanceMCFCompany:
       - AccessToFinance-ValueOfLoan-Male
       - AccessToFinance-ValueOfLoan-Female
