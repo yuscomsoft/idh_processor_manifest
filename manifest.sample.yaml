@@ -628,14 +628,14 @@ companyLevelAssessment:
     - JobCreation-TemporaryJobsAlSE-TemporaryJobsYouthAlSE-Male
     - JobCreation-TemporaryJobsAlSE-TemporaryJobsYouthAlSE-Female
     - NumberOfYouthInDignifiedAndFulfillingWork
-    - Employment-Employed-AdultEmployedOnFarm-Male
-    - Employment-Employed-AdultEmployedOnFarm-Female
-    - Employment-Employed-YouthEmployedOnFarm-Male
-    - Employment-Employed-YouthEmployedOnFarm-Female
-    - Employment-Employed-AdultEmployedBySME-Male
-    - Employment-Employed-AdultEmployedBySME-Female
-    - Employment-Employed-YouthEmployedBySME-Male
-    - Employment-Employed-YouthEmployedBySME-Female
+    - Employment-AdultEmployedOnFarm-Male
+    - Employment-AdultEmployedOnFarm-Female
+    - Employment-YouthEmployedOnFarm-Male
+    - Employment-YouthEmployedOnFarm-Female
+    - Employment-AdultEmployedBySME-Male
+    - Employment-AdultEmployedBySME-Female
+    - Employment-YouthEmployedBySME-Male
+    - Employment-YouthEmployedBySME-Female
     - FarmersParticipatingInFarmersAssociationOrCooperatives-Adult-Male
     - FarmersParticipatingInFarmersAssociationOrCooperatives-Adult-Female
     - FarmersParticipatingInFarmersAssociationOrCooperatives-Youth-Male
@@ -950,14 +950,14 @@ companyLevelAssessment:
     youthInDignifiedAndFulfillingWorkCompany:
       - NumberOfYouthInDignifiedAndFulfillingWork
     employmentCompay:
-      - Employment-Employed-AdultEmployedOnFarm-Male
-      - Employment-Employed-AdultEmployedOnFarm-Female
-      - Employment-Employed-YouthEmployedOnFarm-Male
-      - Employment-Employed-YouthEmployedOnFarm-Female
-      - Employment-Employed-AdultEmployedBySME-Male
-      - Employment-Employed-AdultEmployedBySME-Female
-      - Employment-Employed-YouthEmployedBySME-Male
-      - Employment-Employed-YouthEmployedBySME-Female
+      - Employment-AdultEmployedOnFarm-Male
+      - Employment-AdultEmployedOnFarm-Female
+      - Employment-YouthEmployedOnFarm-Male
+      - Employment-YouthEmployedOnFarm-Female
+      - Employment-AdultEmployedBySME-Male
+      - Employment-AdultEmployedBySME-Female
+      - Employment-YouthEmployedBySME-Male
+      - Employment-YouthEmployedBySME-Female
     accessToFinanceMCFCompany:
       - AccessToFinance-ValueOfLoan-Male
       - AccessToFinance-ValueOfLoan-Female
