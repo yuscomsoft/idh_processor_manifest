@@ -547,6 +547,14 @@ companyLevelAssessment:
     - CIT-numberOfCooprativesRackedAsMember-orientedInCIT
     - CIT-numberOfCooprativesRackedAsGrowth-orientedInCIT
     - CIT-numberOfCooprativesRackedAsMatureInCIT
+    - CIT-NumberOfMatureCooperatives
+    - CIT-NumberOfCoachesReceivedTraining
+    - CIT-NumberOfCooperativesWithAgreement
+    - CIT-NumberOfFarmersReachedThroughTrainings
+    - CIT-NumberOfCooperativesWithFinancialStatements
+    - CIT-NumberOfCooperativesWithImprovedBook_keeping
+    - CIT-NumbersGraduatedToTheNextStageOfInputsFinancing
+    - CIT-NumberOfWomenParticipatingInDecision_making
     - AccesstoInputsandImprovedYields-numberOfMOUSigned
     - AccessToFinancialServices-financingFacility-included
     - AccessToFinancialServices-financingFacility-amountOfFiancingFacility
@@ -814,6 +822,15 @@ companyLevelAssessment:
       - CIT-numberOfCooprativesRackedAsMember-orientedInCIT
       - CIT-numberOfCooprativesRackedAsGrowth-orientedInCIT
       - CIT-numberOfCooprativesRackedAsMatureInCIT
+    cooperativeImprovementTrackHOTIEXPORTCompany:
+      - CIT-NumberOfMatureCooperatives
+      - CIT-NumberOfCoachesReceivedTraining
+      - CIT-NumberOfCooperativesWithAgreement
+      - CIT-NumberOfFarmersReachedThroughTrainings
+      - CIT-NumberOfCooperativesWithFinancialStatements
+      - CIT-NumberOfCooperativesWithImprovedBook_keeping
+      - CIT-NumbersGraduatedToTheNextStageOfInputsFinancing
+      - CIT-NumberOfWomenParticipatingInDecision_making
     accessToInputsAndImprovedYieldsAIFCompany:
       - AccesstoInputsandImprovedYields-numberOfMOUSigned
     accessToFinancialServicesAIFCompany:
