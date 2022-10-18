@@ -812,7 +812,7 @@ companyLevelAssessment:
       - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-sub_aggregatorsNumberOfFemale
       - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-numberOfYouth
       - aggregatorsUsingtheTraceabilityTool-sub_aggregatorsUsingtheTraceabilityToolDeveloped-total
-    cooperativeImprovementTrackAIFCompany:
+    cooperativeImprovementTrackCompany:
       - CIT-numberOfCooprativesOnboarded
       - CIT-numberOfCooprativesReceivedTraining
       - CIT-cooperativeCoaches-numberOfCooperativeCoaches-Recruited
@@ -822,7 +822,6 @@ companyLevelAssessment:
       - CIT-numberOfCooprativesRackedAsMember-orientedInCIT
       - CIT-numberOfCooprativesRackedAsGrowth-orientedInCIT
       - CIT-numberOfCooprativesRackedAsMatureInCIT
-    cooperativeImprovementTrackHOTIEXPORTCompany:
       - CIT-NumberOfMatureCooperatives
       - CIT-NumberOfCoachesReceivedTraining
       - CIT-NumberOfCooperativesWithAgreement
