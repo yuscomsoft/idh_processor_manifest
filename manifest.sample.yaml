@@ -899,7 +899,7 @@ companyLevelAssessment:
       - JobCreation-TemporaryJobsAlSE-TemporaryJobsYouthAlSE-Male
       - JobCreation-TemporaryJobsAlSE-TemporaryJobsYouthAlSE-Female
     accessToAffordableFinanceCompany:
-      - AccessToAffordableFinance-AmountOfCo-financing
+      - PrivateSectorInvestment-AmountOfCo_financing
     adoptionOfTechnologyCompany:
       - AdoptionOfTechnology-AdoptedGPB-AdoptedGPBAdult-Male
       - AdoptionOfTechnology-AdoptedGPB-AdoptedGPBAdult-Female
