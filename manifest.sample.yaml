@@ -245,6 +245,12 @@ fieldLevelAssessment:
     - NumberOfProducersLinked-NumberOfProducersLinkedYouth-female
     - CIT-numberOfCooperativesReceivingTrainingFromCooperativeCoaches
     - CIT-numberOfCooperativesRegisteredAsAgroDealers
+    - ImprovedAccessToFormalMarket
+    - ImprovedAccessToFinance
+    - reductionInUseOfChemical-chemicalFertilizer
+    - reductionInUseOfChemical-chemicalCropProtection
+    - regenerativeAgriculture-farmSizeOnRegenerativeAgriculture
+    - regenerativeAgriculture-farmSize
   baseKpi:
     - KEY
     - source
@@ -257,6 +263,16 @@ fieldLevelAssessment:
     - farmersId
     - produce
   kpiOutput:
+    improvedAccessFieldDANIDA:
+      - ImprovedAccessToFormalMarket
+      - ImprovedAccessToFinance
+    reductionInUseOfChemicalFieldDANIDA:
+      - reductionInUseOfChemical-chemicalFertilizer
+      - reductionInUseOfChemical-chemicalCropProtection
+    regenerativeAgricultureFieldDANIDA:
+      - regenerativeAgriculture-farmSizeOnRegenerativeAgriculture
+      - regenerativeAgriculture-farmSize
+      - farmerType
     cooperativeImprovementTrackCOOPCompany:
       - cooperative
       - CIT-numberOfCooperativesReceivingTrainingFromCooperativeCoaches
@@ -713,6 +729,27 @@ companyLevelAssessment:
     - LandUnderImprovedAgriculturalPractices
     - AccessToAffordableFinance-AmountOfCo-financing
     - ProduceEvaluationSection-NumberOfProduce
+    - jobCreation-permanent-permanentFieldLevel-adultMale
+    - jobCreation-permanent-permanentFieldLevel-adultFemale
+    - jobCreation-permanent-permanentFieldLevel-youthMale
+    - jobCreation-permanent-permanentFieldLevel-youthFemale
+    - jobCreation-permanent-permanentFactory-adultMale
+    - jobCreation-permanent-permanentFactory-adultFemale
+    - jobCreation-permanent-permanentFactory-youthMale
+    - jobCreation-permanent-permanentFactory-youthFemale
+    - jobCreation-temporary-temporaryFieldLevel-adultMale
+    - jobCreation-temporary-temporaryFieldLevel-adultFemale
+    - jobCreation-temporary-temporaryFieldLevel-youthMale
+    - jobCreation-temporary-temporaryFieldLevel-youthFemale
+    - jobCreation-temporary-temporaryFactory-adultMale
+    - jobCreation-temporary-temporaryFactory-adultFemale
+    - jobCreation-temporary-temporaryFactory-youthMale
+    - jobCreation-temporary-temporaryFactory-youthFemale
+    - procuredByProjectPartner
+    - offtakeVolume
+    - offtakeValue
+    - proteinProduced-male
+    - proteinProduced-female
   baseKpi:
     - assessmentPeriod-year
     - assessmentPeriod-quarter
@@ -722,6 +759,31 @@ companyLevelAssessment:
     - country
     - KEY
   kpiOutput:
+    jobCreationCompanyDANIDA:
+      - jobCreation-permanent-permanentFieldLevel-adultMale
+      - jobCreation-permanent-permanentFieldLevel-adultFemale
+      - jobCreation-permanent-permanentFieldLevel-youthMale
+      - jobCreation-permanent-permanentFieldLevel-youthFemale
+      - jobCreation-permanent-permanentFactory-adultMale
+      - jobCreation-permanent-permanentFactory-adultFemale
+      - jobCreation-permanent-permanentFactory-youthMale
+      - jobCreation-permanent-permanentFactory-youthFemale
+      - jobCreation-temporary-temporaryFieldLevel-adultMale
+      - jobCreation-temporary-temporaryFieldLevel-adultFemale
+      - jobCreation-temporary-temporaryFieldLevel-youthMale
+      - jobCreation-temporary-temporaryFieldLevel-youthFemale
+      - jobCreation-temporary-temporaryFactory-adultMale
+      - jobCreation-temporary-temporaryFactory-adultFemale
+      - jobCreation-temporary-temporaryFactory-youthMale
+      - jobCreation-temporary-temporaryFactory-youthFemale
+    procuredByProjectPartnerCompanyDANIDA:
+      - procuredByProjectPartner
+    offtakeCompanyDANIDA:
+      - offtakeVolume
+      - offtakeValue
+    proteinProducedCompanyDANIDA:
+      - proteinProduced-male
+      - proteinProduced-female
     trainingOfWorkersSMECompany:
       - trainingOfWorkers-pack-house
       - trainingOfWorkers-field-level
