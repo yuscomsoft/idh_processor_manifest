@@ -266,9 +266,11 @@ fieldLevelAssessment:
     improvedAccessFieldDANIDA:
       - ImprovedAccessToFormalMarket
       - ImprovedAccessToFinance
+      - farmerType
     reductionInUseOfChemicalFieldDANIDA:
       - reductionInUseOfChemical-chemicalFertilizer
       - reductionInUseOfChemical-chemicalCropProtection
+      - farmerType
     regenerativeAgricultureFieldDANIDA:
       - regenerativeAgriculture-farmSizeOnRegenerativeAgriculture
       - regenerativeAgriculture-farmSize
